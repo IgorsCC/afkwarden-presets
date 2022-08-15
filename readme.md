@@ -1,6 +1,6 @@
-# IgorsPresets - Boss Hub
+# IgorsPresets - Boss Hub  
 
-_**How to Install:**_  
+<img src="assets/imgs/How%20to%20Install%20banner.png" width=500>    
 
 - [Watch Video:](https://youtu.be/iF2VUQG2LLM)  
 OR  
@@ -14,7 +14,7 @@ OR
 7. Click on Import
 8. Give a name to the preset
 9. Access one of the boss preset links below and copy paste the code using Keyboard shortcuts **(CTRL+C & CTRL+V)**
-10. Click Import and Start learning the fight!#
+10. Click Import and Start learning the fight!  
 
 **Important:**
 _Using Elder Overload Salve?_
@@ -23,7 +23,7 @@ _Using Elder Overload Salve?_
 
 _**ENJOY!**_
 
-_**Current presets:**_  
+<img src="assets/imgs/Current%20Presets%20banner.png" width=500>  
 
 <img src="assets/imgs/Wildy%20banner.png" width=500>
 
