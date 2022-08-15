@@ -17,13 +17,33 @@ or
 10. Click Import and Start learning the fight!#
 
 **Important:**
-1. Using Elder Overload Salve?
- 1. YES: Please pause Overload, Antifire, Antipoison alerts.
- 2. No: Pause Elder Overload Salve alert.
+_Using Elder Overload Salve?_
+ 1. **YES:** Please pause Overload, Antifire, Antipoison alerts.
+ 2. **NO:** Pause Elder Overload Salve alert.  
+
 **ENJOY!**
 
-**Current presets:**
+**Current presets:**  
 
-- [Raksha](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/raksha.json)
-- [Wilderness](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/wilderness.json)
-- [Zuk Normal Mode](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/zuk-nm-rsguy.json)
+- [Wilderness Reborn](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/wilderness.json)  
+
+**General PVM - Creators Voice Packs**  
+- [Voice Pack - The RS Guy](https://github.com/igorscc/afkwarden-presets/blob/master/general-rsguy.json)  
+- [Voice Pack - Protoxx](https://github.com/igorscc/afkwarden-presets/blob/master/general-protoxx.json)  
+  
+**Queen Black Dragon**  
+- [QBD](https://github.com/igorscc/afkwarden-presets/blob/master/qbd.json)  
+  
+**Zamorak, The Lord of Chaos - Normal Mode Sub 100%**  
+- [Solo](https://github.com/igorscc/afkwarden-presets/blob/master/zammysub100-solo.json)  
+- [Group - DPS](https://github.com/igorscc/afkwarden-presets/blob/master/zammysub100-group-dps.json)  
+- [Group - Witch Killer](https://github.com/igorscc/afkwarden-presets/blob/master/zammysub100-group-witch.json)  
+- [Group - Pad Charger](https://github.com/igorscc/afkwarden-presets/blob/master/zammysub100-group-pads.json)  
+  
+**Raksha - Voice acted by Protoxx**  
+- [Solo](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/raksha.json)  
+- [Duo-DPS](https://github.com/igorscc/afkwarden-presets/blob/master/raksha-duo-dps-protoxx.json)  
+- [Duo-BASE](https://github.com/igorscc/afkwarden-presets/blob/master/raksha-duo-tank-protoxx.json)  
+  
+**TzKal-Zuk - Voice acted by The RS Guy**  
+- [Normal Mode](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/zuk-nm-rsguy.json)  
