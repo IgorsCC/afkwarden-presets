@@ -1,864 +1,934 @@
 {
-  "alerters": [
-    {
-      "name": "Lobby Timer",
-      "globalalarm": false,
-      "alarm": {
-        "sound": "upload:dpv88:1. Protoxx - Lobby Timer",
-        "repeat": false
-      },
-      "voice": null,
-      "tooltip": "About to get lobbied",
-      "exportbar": true,
-      "delay": 270,
-      "type": "inactive"
-    },
-    {
-      "name": "HP Alert",
-      "globalalarm": false,
-      "alarm": {
-        "sound": "upload:dpv89:2.. Protoxx - HP Alert",
-        "repeat": false
-      },
-      "voice": null,
-      "tooltip": "Your hp is low, heal up!",
-      "exportbar": true,
-      "stat": "hp",
-      "higherlower": "lower",
-      "treshold": 5,
-      "type": "actionbar"
-    },
-    {
-      "name": "Prayer Alert",
-      "globalalarm": false,
-      "alarm": {
-        "sound": "upload:dpv9c:3. Protoxx - Prayer Alert",
-        "repeat": false
-      },
-      "voice": null,
-      "tooltip": "Your prayer is low, pot up!",
-      "exportbar": true,
-      "stat": "pray",
-      "higherlower": "lower",
-      "treshold": 30,
-      "type": "actionbar"
-    },
-    {
-      "name": "Animate Dead",
-      "globalalarm": false,
-      "alarm": {
-        "sound": "upload:dpv9d:4. Protoxx - Animate Dead",
-        "repeat": false
-      },
-      "voice": null,
-      "tooltip": "Animate Dead",
-      "exportbar": true,
-      "resetonactive": true,
-      "lines": [
-        { "text": "Your control of the dead is wavering.", "percent": 100 },
+    "alerters": [
         {
-          "text": "Your control of the dead fades, the spirits return to rest.",
-          "percent": 0
+            "name": "Lobby Timer",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpv88:1. Protoxx - Lobby Timer",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": "About to get lobbied",
+            "exportbar": true,
+            "delay": 270,
+            "type": "inactive"
+        },
+        {
+            "name": "HP Alert",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpv89:2.. Protoxx - HP Alert",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": "Your hp is low, heal up!",
+            "exportbar": true,
+            "stat": "hp",
+            "higherlower": "lower",
+            "treshold": 5,
+            "type": "actionbar"
+        },
+        {
+            "name": "Prayer Alert",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpv9c:3. Protoxx - Prayer Alert",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": "Your prayer is low, pot up!",
+            "exportbar": true,
+            "stat": "pray",
+            "higherlower": "lower",
+            "treshold": 30,
+            "type": "actionbar"
+        },
+        {
+            "name": "Animate Dead",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpv9d:4. Protoxx - Animate Dead",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": "Animate Dead",
+            "exportbar": true,
+            "resetonactive": true,
+            "lines": [
+                {
+                    "text": "Your control of the dead is wavering.",
+                    "percent": 100
+                },
+                {
+                    "text": "Your control of the dead fades, the spirits return to rest.",
+                    "percent": 0
+                }
+            ],
+            "colors": [
+                [255, 255, 255],
+                [127, 169, 255]
+            ],
+            "type": "chat"
+        },
+        {
+            "name": "Overload - Pause if using Elder Overload Salve",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpv9e:5. Protoxx - Overload",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": "Overload",
+            "exportbar": true,
+            "resetonactive": false,
+            "lines": [
+                {
+                    "text": "The effects of overload are about to wear off.",
+                    "percent": 100
+                },
+                { "text": "overload potion.", "percent": 0 },
+                { "text": "Aggroverload", "percent": 0 },
+                { "text": "Holy aggroverload", "percent": 0 },
+                { "text": "Holy overload", "percent": 0 },
+                { "text": "Overload salve", "percent": 0 },
+                { "text": "Perfect plus", "percent": 0 },
+                { "text": "Searing overload", "percent": 0 },
+                { "text": "Supreme overload", "percent": 0 },
+                { "text": "Elder overload salve", "percent": 0 }
+            ],
+            "colors": [
+                [255, 255, 255],
+                [127, 169, 255],
+                [255, 0, 0]
+            ],
+            "type": "chat"
+        },
+        {
+            "name": "Powerburst Unavailable",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpv9f:6. Protoxx - Powerburst Unavailable",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": null,
+            "exportbar": true,
+            "resetonactive": true,
+            "lines": [
+                {
+                    "text": "You can't drink a powerburst potion for another ",
+                    "percent": 100
+                }
+            ],
+            "colors": [
+                [255, 255, 255],
+                [127, 169, 255]
+            ],
+            "type": "chat"
+        },
+        {
+            "name": "God Book",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpv9g:7. Protoxx - God Book",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": null,
+            "exportbar": true,
+            "resetonactive": false,
+            "lines": [
+                { "text": "Your god book is no longer active", "percent": 100 },
+                { "text": "Your god book is now active", "percent": 0 }
+            ],
+            "colors": [
+                [255, 255, 255],
+                [127, 169, 255],
+                [255, 204, 0]
+            ],
+            "type": "chat"
+        },
+        {
+            "name": "Zerk Auras",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpv9h:8. Protoxx - Zerk Auras",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": null,
+            "exportbar": true,
+            "resetonactive": false,
+            "lines": [
+                {
+                    "text": "Your aura will deplete in 1 minute",
+                    "percent": 100
+                },
+                { "text": "Your aura has depleted", "percent": 100 },
+                { "text": "You unleash a berserk rage", "percent": 0 },
+                { "text": "Your berserker rage has subsided", "percent": 100 }
+            ],
+            "colors": [
+                [255, 255, 255],
+                [255, 204, 0],
+                [127, 169, 255]
+            ],
+            "type": "chat"
+        },
+        {
+            "name": "Antifire - Pause if using Elder Overload Salve",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpv9k:9. Protoxx - Antifire",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": null,
+            "exportbar": true,
+            "resetonactive": false,
+            "lines": [
+                {
+                    "text": "Your resistance to dragonfire is about to run out",
+                    "percent": 100
+                },
+                {
+                    "text": "Your resistance to dragonfire has run out",
+                    "percent": 100
+                },
+                { "text": "antifire potion", "percent": 0 },
+                { "text": "Wyrmfire potion", "percent": 0 },
+                { "text": "Supreme overload salve", "percent": 0 },
+                { "text": "Overload salve", "percent": 0 },
+                { "text": "Elder overload salve", "percent": 0 }
+            ],
+            "colors": [
+                [255, 255, 255],
+                [127, 169, 255],
+                [255, 0, 0]
+            ],
+            "type": "chat"
+        },
+        {
+            "name": "Antipoison - Pause if using Elder Overload Salve",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpv9n:10. Protoxx - Antipoison",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": null,
+            "exportbar": true,
+            "resetonactive": false,
+            "lines": [
+                {
+                    "text": "Your immunity to poison is about to expire",
+                    "percent": 100
+                },
+                {
+                    "text": "Your immunity to poison has expired",
+                    "percent": 100
+                },
+                { "text": "You drink some of your Antipoison", "percent": 0 },
+                { "text": "Elder overload salve", "percent": 0 },
+                { "text": "Overload salve", "percent": 0 },
+                { "text": "Supreme overload salve", "percent": 0 }
+            ],
+            "colors": [
+                [255, 255, 255],
+                [127, 169, 255],
+                [255, 0, 0]
+            ],
+            "type": "chat"
+        },
+        {
+            "name": "Weapon Poison",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpv9q:11. Protoxx - Weapon Poison",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": null,
+            "exportbar": true,
+            "resetonactive": false,
+            "lines": [
+                {
+                    "text": "Your poison potion is about to expire",
+                    "percent": 100
+                },
+                { "text": "Your poison potion has expired", "percent": 100 },
+                { "text": "You appiy some of your Weapon Poison", "percent": 0 }
+            ],
+            "colors": [
+                [255, 255, 255],
+                [127, 169, 255],
+                [255, 0, 0]
+            ],
+            "type": "chat"
+        },
+        {
+            "name": "Cannon Decay",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpv9r:12. Protoxx - Cannon Decay",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": null,
+            "exportbar": true,
+            "resetonactive": true,
+            "lines": [
+                { "text": "Your cannon has almost decayed", "percent": 100 }
+            ],
+            "colors": [[255, 0, 0]],
+            "type": "chat"
+        },
+        {
+            "name": "Familiar Tracker",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpv9s:13. Protoxx - Familiar Tracker",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": null,
+            "exportbar": true,
+            "resetonactive": true,
+            "lines": [
+                {
+                    "text": "You have 1 minute before your familiar vanishes",
+                    "percent": 100
+                },
+                {
+                    "text": "You have 30 seconds before your familiar vanishes",
+                    "percent": 100
+                }
+            ],
+            "colors": [
+                [255, 255, 255],
+                [127, 169, 255],
+                [235, 47, 47]
+            ],
+            "type": "chat"
+        },
+        {
+            "name": "Insense Sticks",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpv9u:14. Protoxx - Incense Sticks",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": null,
+            "exportbar": true,
+            "resetonactive": true,
+            "lines": [
+                { "text": "The effects have ended for:", "percent": 100 }
+            ],
+            "colors": [
+                [255, 255, 255],
+                [127, 169, 255],
+                [255, 0, 0]
+            ],
+            "type": "chat"
+        },
+        {
+            "name": "1. Start of the fight",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpxmu:1. Protoxx - Duo - DPS - Start of the fight",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": null,
+            "exportbar": true,
+            "resetonactive": false,
+            "lines": [
+                {
+                    "text": "Welcome to your session against: Raksha",
+                    "percent": 100
+                },
+                { "text": "RRRROOOOOAARRR", "percent": 0 },
+                { "text": "JOIN ME IN TORMENT", "percent": 0 },
+                { "text": "The pain... subsides", "percent": 0 },
+                { "text": "Your preset is being", "percent": 0 },
+                {
+                    "text": "Welcome to your session against: Raksha",
+                    "percent": 0
+                },
+                { "text": "GRRARRR", "percent": 0 },
+                { "text": "RRRR", "percent": 0 },
+                {
+                    "text": "Welcome to your session against: Raksha (Practice mode",
+                    "percent": 100
+                },
+                { "text": "GRRR", "percent": 100 }
+            ],
+            "colors": [
+                [255, 255, 255],
+                [127, 169, 255],
+                [255, 0, 0],
+                [153, 255, 153],
+                [0, 255, 0]
+            ],
+            "type": "chat"
+        },
+        {
+            "name": "2. Tail swipe",
+            "globalalarm": false,
+            "alarm": null,
+            "voice": null,
+            "tooltip": null,
+            "exportbar": false,
+            "resetonactive": false,
+            "lines": [],
+            "colors": [],
+            "type": "chat"
+        },
+        {
+            "name": "3. Charge",
+            "globalalarm": false,
+            "alarm": null,
+            "voice": null,
+            "tooltip": null,
+            "exportbar": false,
+            "resetonactive": false,
+            "lines": [],
+            "colors": [],
+            "type": "chat"
+        },
+        {
+            "name": "4. Shadow Bomb P1",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpxmv:4. Protoxx - Duo - DPS - Shadow Bomb P1",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": null,
+            "exportbar": true,
+            "resetonactive": false,
+            "lines": [
+                {
+                    "text": "You have been prevented from moving",
+                    "percent": 100
+                },
+                { "text": "GAHH", "percent": 100 },
+                { "text": "GRRARRR", "percent": 0 },
+                { "text": "RRRR", "percent": 0 },
+                {
+                    "text": "Raksha prepares to send out 5 waves of energy",
+                    "percent": 0
+                },
+                {
+                    "text": "Raksha begins to stamp the ground in anger. Watch out",
+                    "percent": 0
+                },
+                { "text": "RRRROOOOOAARRR", "percent": 0 },
+                { "text": "JOIN ME IN TORMENT", "percent": 0 },
+                { "text": "The pain... subsides", "percent": 0 },
+                { "text": "Your preset is being", "percent": 0 },
+                {
+                    "text": "Welcome to your session against: Raksha",
+                    "percent": 0
+                }
+            ],
+            "colors": [
+                [255, 255, 255],
+                [127, 169, 255],
+                [255, 0, 0],
+                [153, 255, 153],
+                [0, 255, 0]
+            ],
+            "type": "chat"
+        },
+        {
+            "name": "5. Shockwave",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpxmw:5. Protoxx - Duo - DPS - Shockwave",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": null,
+            "exportbar": true,
+            "resetonactive": false,
+            "lines": [
+                {
+                    "text": "Raksha prepares to send out 5 waves of energy",
+                    "percent": 100
+                },
+                {
+                    "text": "Welcome to your session against: Raksha",
+                    "percent": 0
+                },
+                { "text": "Your preset is being", "percent": 0 },
+                { "text": "GRRARRR", "percent": 0 },
+                { "text": "RRRR", "percent": 0 },
+                {
+                    "text": "Raksha begins to poison your mind with shadow energy",
+                    "percent": 0
+                },
+                { "text": "RRRROOOOOAARRR", "percent": 0 },
+                { "text": "JOIN ME IN TORMENT", "percent": 0 },
+                { "text": "The pain... subsides", "percent": 0 },
+                { "text": "Your preset is being", "percent": 0 },
+                {
+                    "text": "Welcome to your session against: Raksha",
+                    "percent": 0
+                }
+            ],
+            "colors": [
+                [255, 255, 255],
+                [127, 169, 255],
+                [255, 0, 0],
+                [153, 255, 153],
+                [0, 255, 0]
+            ],
+            "type": "chat"
+        },
+        {
+            "name": "6. Rockfall/Transition",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpxmx:6. Protoxx - Duo - DPS - Rockfall.Transition",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": null,
+            "exportbar": true,
+            "resetonactive": false,
+            "lines": [
+                {
+                    "text": "Raksha begins to stamp the ground in anger. Watch out",
+                    "percent": 100
+                },
+                {
+                    "text": "You may think you hear it speaking. Ignore it and focus",
+                    "percent": 100
+                },
+                { "text": "THERE YOU ARE", "percent": 0 },
+                {
+                    "text": "The shadow grows thicker. You must defeat him quickly",
+                    "percent": 100
+                },
+                { "text": "YOU ARE MY PREY", "percent": 0 },
+                { "text": "RRRROOOOOAARRR", "percent": 0 },
+                { "text": "JOIN ME IN TORMENT", "percent": 0 },
+                { "text": "The pain... subsides", "percent": 0 },
+                { "text": "Your preset is being", "percent": 0 },
+                {
+                    "text": "Welcome to your session against: Raksha",
+                    "percent": 0
+                }
+            ],
+            "colors": [
+                [255, 255, 255],
+                [127, 169, 255],
+                [255, 0, 0],
+                [153, 255, 153],
+                [0, 255, 0]
+            ],
+            "type": "chat"
+        },
+        {
+            "name": "7. Mind Poison",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpxmz:7. Protoxx - Duo - DPS - Mind Poison",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": null,
+            "exportbar": true,
+            "resetonactive": false,
+            "lines": [
+                {
+                    "text": "Raksha begins to poison your mind with shadow energy",
+                    "percent": 100
+                },
+                { "text": "YOUR THOUGHTS BETRAY YOU", "percent": 100 },
+                {
+                    "text": "You must not let him poison your mind. It will kill you",
+                    "percent": 100
+                },
+                { "text": "RRRAR", "percent": 0 },
+                { "text": "RRRROOOOOAARRR", "percent": 0 },
+                { "text": "JOIN ME IN TORMENT", "percent": 0 },
+                { "text": "The pain... subsides", "percent": 0 },
+                { "text": "Your preset is being", "percent": 0 },
+                {
+                    "text": "Welcome to your session against: Raksha",
+                    "percent": 0
+                }
+            ],
+            "colors": [
+                [255, 255, 255],
+                [127, 169, 255],
+                [255, 0, 0],
+                [153, 255, 153],
+                [0, 255, 0]
+            ],
+            "type": "chat"
+        },
+        {
+            "name": "8. Shadow Bomb P2-4",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpxm2:8. Protoxx - Duo - DPS - Shadow Bomb P2-P4",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": null,
+            "exportbar": true,
+            "resetonactive": false,
+            "lines": [
+                { "text": "FLEE INSECT", "percent": 100 },
+                {
+                    "text": "Raksha begins to bombard you with shadow bombs. Watch out",
+                    "percent": 100
+                },
+                { "text": "GRRARRR", "percent": 0 },
+                { "text": "RRRR", "percent": 0 },
+                { "text": "RRRROOOOOAARRR", "percent": 0 },
+                { "text": "JOIN ME IN TORMENT", "percent": 0 },
+                { "text": "The pain... subsides", "percent": 0 },
+                { "text": "Your preset is being", "percent": 0 },
+                {
+                    "text": "Welcome to your session against: Raksha",
+                    "percent": 0
+                }
+            ],
+            "colors": [
+                [255, 255, 255],
+                [127, 169, 255],
+                [255, 0, 0],
+                [153, 255, 153],
+                [0, 255, 0]
+            ],
+            "type": "chat"
+        },
+        {
+            "name": "9. Shadow Pools",
+            "globalalarm": false,
+            "alarm": null,
+            "voice": null,
+            "tooltip": null,
+            "exportbar": false,
+            "resetonactive": false,
+            "lines": [],
+            "colors": [],
+            "type": "chat"
+        },
+        {
+            "name": "10. Minions",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpxm3:10. Protoxx - Duo - DPS - Minions",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": null,
+            "exportbar": true,
+            "resetonactive": false,
+            "lines": [
+                { "text": "YOU ARE MY PREY", "percent": 100 },
+                { "text": "GRRARRR", "percent": 0 },
+                { "text": "RRRR", "percent": 0 },
+                { "text": "YOUR THOUGHTS BETRAY YOU", "percent": 0 },
+                { "text": "RRRROOOOOAARRR", "percent": 0 },
+                { "text": "JOIN ME IN TORMENT", "percent": 0 },
+                { "text": "The pain... subsides", "percent": 0 },
+                { "text": "Your preset is being", "percent": 0 },
+                {
+                    "text": "Welcome to your session against: Raksha",
+                    "percent": 0
+                }
+            ],
+            "colors": [
+                [255, 255, 255],
+                [127, 169, 255],
+                [255, 0, 0],
+                [153, 255, 153],
+                [0, 255, 0]
+            ],
+            "type": "chat"
+        },
+        {
+            "name": "11. Last Phase",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpxm4:11. Protoxx - Duo - DPS - Last phase",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": null,
+            "exportbar": true,
+            "resetonactive": false,
+            "lines": [
+                {
+                    "text": "It's too dangerous. I'll open the gates. Lure him through",
+                    "percent": 100
+                },
+                { "text": "GRR", "percent": 0 },
+                { "text": "RRRROOOOOAARRR", "percent": 0 },
+                { "text": "JOIN ME IN TORMENT", "percent": 0 },
+                { "text": "The pain... subsides", "percent": 0 },
+                { "text": "Your preset is being", "percent": 0 },
+                {
+                    "text": "Welcome to your session against: Raksha",
+                    "percent": 0
+                }
+            ],
+            "colors": [
+                [255, 255, 255],
+                [127, 169, 255],
+                [255, 0, 0],
+                [153, 255, 153],
+                [0, 255, 0]
+            ],
+            "type": "chat"
+        },
+        {
+            "name": "12. Instant Kill",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpxm5:12. Protoxx - Duo - DPS - Instant kill",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": null,
+            "exportbar": true,
+            "resetonactive": false,
+            "lines": [
+                { "text": "I WILL DRAG YOU INTO EREBUS", "percent": 100 },
+                {
+                    "text": "You interrupt Raksha's powerful attack before he could finish charging it",
+                    "percent": 0
+                },
+                {
+                    "text": "Hiding behind the post stops Raksha from hitting you",
+                    "percent": 0
+                },
+                { "text": "RRRAAAAR", "percent": 0 },
+                { "text": "RRRROOOOOAARRR", "percent": 0 },
+                { "text": "JOIN ME IN TORMENT", "percent": 0 },
+                { "text": "The pain... subsides", "percent": 0 },
+                { "text": "Your preset is being", "percent": 0 },
+                {
+                    "text": "Welcome to your session against: Raksha",
+                    "percent": 0
+                }
+            ],
+            "colors": [
+                [255, 255, 255],
+                [127, 169, 255],
+                [255, 0, 0],
+                [153, 255, 153],
+                [0, 255, 0]
+            ],
+            "type": "chat"
+        },
+        {
+            "name": "13. Collect shadow anima",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpxm6:13. Protoxx - Duo - DPS - Collect shadow anima",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": null,
+            "exportbar": true,
+            "resetonactive": false,
+            "lines": [
+                { "text": "Collect that shadow", "percent": 100 },
+                { "text": "GRRARRR", "percent": 0 },
+                { "text": "RRRR", "percent": 0 },
+                { "text": "I WILL DRAG YOU INTO EREBUS", "percent": 0 },
+                { "text": "FLEE INSECT", "percent": 0 },
+                { "text": "RRRROOOOOAARRR", "percent": 0 },
+                { "text": "JOIN ME IN TORMENT", "percent": 0 },
+                { "text": "The pain... subsides", "percent": 0 },
+                { "text": "Your preset is being", "percent": 0 },
+                {
+                    "text": "Welcome to your session against: Raksha",
+                    "percent": 0
+                }
+            ],
+            "colors": [
+                [255, 255, 255],
+                [127, 169, 255],
+                [255, 0, 0],
+                [153, 255, 153],
+                [0, 255, 0]
+            ],
+            "type": "chat"
+        },
+        {
+            "name": "Choose one ending below and pause the others",
+            "globalalarm": false,
+            "alarm": null,
+            "voice": null,
+            "tooltip": null,
+            "exportbar": false,
+            "resetonactive": false,
+            "lines": [],
+            "colors": [],
+            "type": "chat"
+        },
+        {
+            "name": "14. Protoxx- Ending1 - Cup of tea",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpxm7:14. Protoxx - Ending1 - Cup of tea",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": null,
+            "exportbar": true,
+            "resetonactive": false,
+            "lines": [
+                { "text": "The pain... subsides", "percent": 100 },
+                { "text": "Your preset is being", "percent": 0 },
+                {
+                    "text": "Welcome to your session against: Raksha",
+                    "percent": 0
+                }
+            ],
+            "colors": [
+                [255, 255, 255],
+                [127, 169, 255],
+                [255, 0, 0],
+                [153, 255, 153],
+                [0, 255, 0]
+            ],
+            "type": "chat"
+        },
+        {
+            "name": "14. Protoxx- Ending2 - Killed Barney",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpxm9:14. Protoxx - Ending2 - Killed Barney",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": null,
+            "exportbar": true,
+            "resetonactive": false,
+            "lines": [
+                { "text": "The pain... subsides", "percent": 100 },
+                { "text": "Your preset is being", "percent": 0 },
+                {
+                    "text": "Welcome to your session against: Raksha",
+                    "percent": 0
+                }
+            ],
+            "colors": [
+                [255, 255, 255],
+                [127, 169, 255],
+                [255, 0, 0],
+                [153, 255, 153],
+                [0, 255, 0]
+            ],
+            "type": "chat"
+        },
+        {
+            "name": "14. Protoxx- Ending3 - Nicely done, now do it again",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpxna:14. Protoxx - Ending3 - Nicely done now do it again",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": null,
+            "exportbar": true,
+            "resetonactive": false,
+            "lines": [
+                { "text": "The pain... subsides", "percent": 100 },
+                { "text": "Your preset is being", "percent": 0 },
+                {
+                    "text": "Welcome to your session against: Raksha",
+                    "percent": 0
+                }
+            ],
+            "colors": [
+                [255, 255, 255],
+                [127, 169, 255],
+                [255, 0, 0],
+                [153, 255, 153],
+                [0, 255, 0]
+            ],
+            "type": "chat"
+        },
+        {
+            "name": "Freedom if stunned",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpxph:15. Protoxx - Duo - DPS - Freedom Now",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": null,
+            "exportbar": true,
+            "resetonactive": false,
+            "lines": [
+                { "text": "You've been prevented from moving", "percent": 100 },
+                { "text": "GRRARRR", "percent": 0 },
+                { "text": "RRRR", "percent": 0 },
+                { "text": "YOUR THOUGHTS BETRAY YOU", "percent": 0 },
+                { "text": " RRRROOOOOAARRR", "percent": 0 },
+                { "text": "JOIN ME IN TORMENT", "percent": 0 },
+                { "text": "The pain... subsides", "percent": 0 },
+                { "text": "Your preset is being", "percent": 0 },
+                {
+                    "text": "Welcome to your session against: Raksha",
+                    "percent": 0
+                },
+                { "text": "GAHH", "percent": 0 }
+            ],
+            "colors": [
+                [255, 255, 255],
+                [127, 169, 255],
+                [255, 0, 0],
+                [153, 255, 153],
+                [0, 255, 0]
+            ],
+            "type": "chat"
+        },
+        {
+            "name": "Elder Overload Salve - Pause if not using",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpv9e:5. Protoxx - Overload",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": null,
+            "exportbar": true,
+            "resetonactive": false,
+            "lines": [
+                {
+                    "text": "The effects of overload are about to wear off",
+                    "percent": 100
+                },
+                {
+                    "text": "Your resistance to dragonfire is about to run out",
+                    "percent": 100
+                },
+                {
+                    "text": "Your immunity to poison is about to expire",
+                    "percent": 100
+                },
+                { "text": "Elder overload salve", "percent": 0 }
+            ],
+            "colors": [
+                [255, 255, 255],
+                [127, 169, 255],
+                [255, 0, 0]
+            ],
+            "type": "chat"
         }
-      ],
-      "colors": [
-        [255, 255, 255],
-        [127, 169, 255]
-      ],
-      "type": "chat"
-    },
-    {
-      "name": "Overload - Pause if using Elder Overload Salve",
-      "globalalarm": false,
-      "alarm": {
-        "sound": "upload:dpv9e:5. Protoxx - Overload",
-        "repeat": false
-      },
-      "voice": null,
-      "tooltip": "Overload",
-      "exportbar": true,
-      "resetonactive": false,
-      "lines": [
-        {
-          "text": "The effects of overload are about to wear off.",
-          "percent": 100
-        },
-        { "text": "overload potion.", "percent": 0 },
-        { "text": "Aggroverload", "percent": 0 },
-        { "text": "Holy aggroverload", "percent": 0 },
-        { "text": "Holy overload", "percent": 0 },
-        { "text": "Overload salve", "percent": 0 },
-        { "text": "Perfect plus", "percent": 0 },
-        { "text": "Searing overload", "percent": 0 },
-        { "text": "Supreme overload", "percent": 0 },
-        { "text": "Elder overload salve", "percent": 0 }
-      ],
-      "colors": [
-        [255, 255, 255],
-        [127, 169, 255],
-        [255, 0, 0]
-      ],
-      "type": "chat"
-    },
-    {
-      "name": "Powerburst Unavailable",
-      "globalalarm": false,
-      "alarm": {
-        "sound": "upload:dpv9f:6. Protoxx - Powerburst Unavailable",
-        "repeat": false
-      },
-      "voice": null,
-      "tooltip": null,
-      "exportbar": true,
-      "resetonactive": true,
-      "lines": [
-        {
-          "text": "You can't drink a powerburst potion for another ",
-          "percent": 100
-        }
-      ],
-      "colors": [
-        [255, 255, 255],
-        [127, 169, 255]
-      ],
-      "type": "chat"
-    },
-    {
-      "name": "God Book",
-      "globalalarm": false,
-      "alarm": {
-        "sound": "upload:dpv9g:7. Protoxx - God Book",
-        "repeat": false
-      },
-      "voice": null,
-      "tooltip": null,
-      "exportbar": true,
-      "resetonactive": false,
-      "lines": [
-        { "text": "Your god book is no longer active", "percent": 100 },
-        { "text": "Your god book is now active", "percent": 0 }
-      ],
-      "colors": [
-        [255, 255, 255],
-        [127, 169, 255],
-        [255, 204, 0]
-      ],
-      "type": "chat"
-    },
-    {
-      "name": "Zerk Auras",
-      "globalalarm": false,
-      "alarm": {
-        "sound": "upload:dpv9h:8. Protoxx - Zerk Auras",
-        "repeat": false
-      },
-      "voice": null,
-      "tooltip": null,
-      "exportbar": true,
-      "resetonactive": false,
-      "lines": [
-        { "text": "Your aura will deplete in 1 minute", "percent": 100 },
-        { "text": "Your aura has depleted", "percent": 100 },
-        { "text": "You unleash a berserk rage", "percent": 0 },
-        { "text": "Your berserker rage has subsided", "percent": 100 }
-      ],
-      "colors": [
-        [255, 255, 255],
-        [255, 204, 0],
-        [127, 169, 255]
-      ],
-      "type": "chat"
-    },
-    {
-      "name": "Antifire - Pause if using Elder Overload Salve",
-      "globalalarm": false,
-      "alarm": {
-        "sound": "upload:dpv9k:9. Protoxx - Antifire",
-        "repeat": false
-      },
-      "voice": null,
-      "tooltip": null,
-      "exportbar": true,
-      "resetonactive": false,
-      "lines": [
-        {
-          "text": "Your resistance to dragonfire is about to run out",
-          "percent": 100
-        },
-        { "text": "Your resistance to dragonfire has run out", "percent": 100 },
-        { "text": "antifire potion", "percent": 0 },
-        { "text": "Wyrmfire potion", "percent": 0 },
-        { "text": "Supreme overload salve", "percent": 0 },
-        { "text": "Overload salve", "percent": 0 },
-        { "text": "Elder overload salve", "percent": 0 }
-      ],
-      "colors": [
-        [255, 255, 255],
-        [127, 169, 255],
-        [255, 0, 0]
-      ],
-      "type": "chat"
-    },
-    {
-      "name": "Antipoison - Pause if using Elder Overload Salve",
-      "globalalarm": false,
-      "alarm": {
-        "sound": "upload:dpv9n:10. Protoxx - Antipoison",
-        "repeat": false
-      },
-      "voice": null,
-      "tooltip": null,
-      "exportbar": true,
-      "resetonactive": false,
-      "lines": [
-        {
-          "text": "Your immunity to poison is about to expire",
-          "percent": 100
-        },
-        { "text": "Your immunity to poison has expired", "percent": 100 },
-        { "text": "You drink some of your Antipoison", "percent": 0 },
-        { "text": "Elder overload salve", "percent": 0 },
-        { "text": "Overload salve", "percent": 0 },
-        { "text": "Supreme overload salve", "percent": 0 }
-      ],
-      "colors": [
-        [255, 255, 255],
-        [127, 169, 255],
-        [255, 0, 0]
-      ],
-      "type": "chat"
-    },
-    {
-      "name": "Weapon Poison",
-      "globalalarm": false,
-      "alarm": {
-        "sound": "upload:dpv9q:11. Protoxx - Weapon Poison",
-        "repeat": false
-      },
-      "voice": null,
-      "tooltip": null,
-      "exportbar": true,
-      "resetonactive": false,
-      "lines": [
-        { "text": "Your poison potion is about to expire", "percent": 100 },
-        { "text": "Your poison potion has expired", "percent": 100 },
-        { "text": "You appiy some of your Weapon Poison", "percent": 0 }
-      ],
-      "colors": [
-        [255, 255, 255],
-        [127, 169, 255],
-        [255, 0, 0]
-      ],
-      "type": "chat"
-    },
-    {
-      "name": "Cannon Decay",
-      "globalalarm": false,
-      "alarm": {
-        "sound": "upload:dpv9r:12. Protoxx - Cannon Decay",
-        "repeat": false
-      },
-      "voice": null,
-      "tooltip": null,
-      "exportbar": true,
-      "resetonactive": true,
-      "lines": [{ "text": "Your cannon has almost decayed", "percent": 100 }],
-      "colors": [[255, 0, 0]],
-      "type": "chat"
-    },
-    {
-      "name": "Familiar Tracker",
-      "globalalarm": false,
-      "alarm": {
-        "sound": "upload:dpv9s:13. Protoxx - Familiar Tracker",
-        "repeat": false
-      },
-      "voice": null,
-      "tooltip": null,
-      "exportbar": true,
-      "resetonactive": true,
-      "lines": [
-        {
-          "text": "You have 1 minute before your familiar vanishes",
-          "percent": 100
-        },
-        {
-          "text": "You have 30 seconds before your familiar vanishes",
-          "percent": 100
-        }
-      ],
-      "colors": [
-        [255, 255, 255],
-        [127, 169, 255],
-        [235, 47, 47]
-      ],
-      "type": "chat"
-    },
-    {
-      "name": "Insense Sticks",
-      "globalalarm": false,
-      "alarm": {
-        "sound": "upload:dpv9u:14. Protoxx - Incense Sticks",
-        "repeat": false
-      },
-      "voice": null,
-      "tooltip": null,
-      "exportbar": true,
-      "resetonactive": true,
-      "lines": [{ "text": "The effects have ended for:", "percent": 100 }],
-      "colors": [
-        [255, 255, 255],
-        [127, 169, 255],
-        [255, 0, 0]
-      ],
-      "type": "chat"
-    },
-    {
-      "name": "1. Start of the fight",
-      "globalalarm": false,
-      "alarm": {
-        "sound": "upload:dpxmu:1. Protoxx - Duo - DPS - Start of the fight",
-        "repeat": false
-      },
-      "voice": null,
-      "tooltip": null,
-      "exportbar": true,
-      "resetonactive": false,
-      "lines": [
-        { "text": "Welcome to your session against: Raksha", "percent": 100 },
-        { "text": "RRRROOOOOAARRR", "percent": 0 },
-        { "text": "JOIN ME IN TORMENT", "percent": 0 },
-        { "text": "The pain... subsides", "percent": 0 },
-        { "text": "Your preset is being", "percent": 0 },
-        { "text": "Welcome to your session against: Raksha", "percent": 0 },
-        { "text": "GRRARRR", "percent": 0 },
-        { "text": "RRRR", "percent": 0 },
-        {
-          "text": "Welcome to your session against: Raksha (Practice mode",
-          "percent": 100
-        },
-        { "text": "GRRR", "percent": 100 }
-      ],
-      "colors": [
-        [255, 255, 255],
-        [127, 169, 255],
-        [255, 0, 0],
-        [153, 255, 153],
-        [0, 255, 0]
-      ],
-      "type": "chat"
-    },
-    {
-      "name": "2. Tail swipe",
-      "globalalarm": false,
-      "alarm": null,
-      "voice": null,
-      "tooltip": null,
-      "exportbar": false,
-      "resetonactive": false,
-      "lines": [],
-      "colors": [],
-      "type": "chat"
-    },
-    {
-      "name": "3. Charge",
-      "globalalarm": false,
-      "alarm": null,
-      "voice": null,
-      "tooltip": null,
-      "exportbar": false,
-      "resetonactive": false,
-      "lines": [],
-      "colors": [],
-      "type": "chat"
-    },
-    {
-      "name": "4. Shadow Bomb P1",
-      "globalalarm": false,
-      "alarm": {
-        "sound": "upload:dpxmv:4. Protoxx - Duo - DPS - Shadow Bomb P1",
-        "repeat": false
-      },
-      "voice": null,
-      "tooltip": null,
-      "exportbar": true,
-      "resetonactive": false,
-      "lines": [
-        { "text": "You have been prevented from moving", "percent": 100 },
-        { "text": "GAHH", "percent": 100 },
-        { "text": "GRRARRR", "percent": 0 },
-        { "text": "RRRR", "percent": 0 },
-        {
-          "text": "Raksha prepares to send out 5 waves of energy",
-          "percent": 0
-        },
-        {
-          "text": "Raksha begins to stamp the ground in anger. Watch out",
-          "percent": 0
-        },
-        { "text": "RRRROOOOOAARRR", "percent": 0 },
-        { "text": "JOIN ME IN TORMENT", "percent": 0 },
-        { "text": "The pain... subsides", "percent": 0 },
-        { "text": "Your preset is being", "percent": 0 },
-        { "text": "Welcome to your session against: Raksha", "percent": 0 }
-      ],
-      "colors": [
-        [255, 255, 255],
-        [127, 169, 255],
-        [255, 0, 0],
-        [153, 255, 153],
-        [0, 255, 0]
-      ],
-      "type": "chat"
-    },
-    {
-      "name": "5. Shockwave",
-      "globalalarm": false,
-      "alarm": {
-        "sound": "upload:dpxmw:5. Protoxx - Duo - DPS - Shockwave",
-        "repeat": false
-      },
-      "voice": null,
-      "tooltip": null,
-      "exportbar": true,
-      "resetonactive": false,
-      "lines": [
-        {
-          "text": "Raksha prepares to send out 5 waves of energy",
-          "percent": 100
-        },
-        { "text": "Welcome to your session against: Raksha", "percent": 0 },
-        { "text": "Your preset is being", "percent": 0 },
-        { "text": "GRRARRR", "percent": 0 },
-        { "text": "RRRR", "percent": 0 },
-        {
-          "text": "Raksha begins to poison your mind with shadow energy",
-          "percent": 0
-        },
-        { "text": "RRRROOOOOAARRR", "percent": 0 },
-        { "text": "JOIN ME IN TORMENT", "percent": 0 },
-        { "text": "The pain... subsides", "percent": 0 },
-        { "text": "Your preset is being", "percent": 0 },
-        { "text": "Welcome to your session against: Raksha", "percent": 0 }
-      ],
-      "colors": [
-        [255, 255, 255],
-        [127, 169, 255],
-        [255, 0, 0],
-        [153, 255, 153],
-        [0, 255, 0]
-      ],
-      "type": "chat"
-    },
-    {
-      "name": "6. Rockfall/Transition",
-      "globalalarm": false,
-      "alarm": {
-        "sound": "upload:dpxmx:6. Protoxx - Duo - DPS - Rockfall.Transition",
-        "repeat": false
-      },
-      "voice": null,
-      "tooltip": null,
-      "exportbar": true,
-      "resetonactive": false,
-      "lines": [
-        {
-          "text": "Raksha begins to stamp the ground in anger. Watch out",
-          "percent": 100
-        },
-        {
-          "text": "You may think you hear it speaking. Ignore it and focus",
-          "percent": 100
-        },
-        { "text": "THERE YOU ARE", "percent": 0 },
-        {
-          "text": "The shadow grows thicker. You must defeat him quickly",
-          "percent": 100
-        },
-        { "text": "YOU ARE MY PREY", "percent": 0 },
-        { "text": "RRRROOOOOAARRR", "percent": 0 },
-        { "text": "JOIN ME IN TORMENT", "percent": 0 },
-        { "text": "The pain... subsides", "percent": 0 },
-        { "text": "Your preset is being", "percent": 0 },
-        { "text": "Welcome to your session against: Raksha", "percent": 0 }
-      ],
-      "colors": [
-        [255, 255, 255],
-        [127, 169, 255],
-        [255, 0, 0],
-        [153, 255, 153],
-        [0, 255, 0]
-      ],
-      "type": "chat"
-    },
-    {
-      "name": "7. Mind Poison",
-      "globalalarm": false,
-      "alarm": {
-        "sound": "upload:dpxmz:7. Protoxx - Duo - DPS - Mind Poison",
-        "repeat": false
-      },
-      "voice": null,
-      "tooltip": null,
-      "exportbar": true,
-      "resetonactive": false,
-      "lines": [
-        {
-          "text": "Raksha begins to poison your mind with shadow energy",
-          "percent": 100
-        },
-        { "text": "YOUR THOUGHTS BETRAY YOU", "percent": 100 },
-        {
-          "text": "You must not let him poison your mind. It will kill you",
-          "percent": 100
-        },
-        { "text": "RRRAR", "percent": 0 },
-        { "text": "RRRROOOOOAARRR", "percent": 0 },
-        { "text": "JOIN ME IN TORMENT", "percent": 0 },
-        { "text": "The pain... subsides", "percent": 0 },
-        { "text": "Your preset is being", "percent": 0 },
-        { "text": "Welcome to your session against: Raksha", "percent": 0 }
-      ],
-      "colors": [
-        [255, 255, 255],
-        [127, 169, 255],
-        [255, 0, 0],
-        [153, 255, 153],
-        [0, 255, 0]
-      ],
-      "type": "chat"
-    },
-    {
-      "name": "8. Shadow Bomb P2-4",
-      "globalalarm": false,
-      "alarm": {
-        "sound": "upload:dpxm2:8. Protoxx - Duo - DPS - Shadow Bomb P2-P4",
-        "repeat": false
-      },
-      "voice": null,
-      "tooltip": null,
-      "exportbar": true,
-      "resetonactive": false,
-      "lines": [
-        { "text": "FLEE INSECT", "percent": 100 },
-        {
-          "text": "Raksha begins to bombard you with shadow bombs. Watch out",
-          "percent": 100
-        },
-        { "text": "GRRARRR", "percent": 0 },
-        { "text": "RRRR", "percent": 0 },
-        { "text": "RRRROOOOOAARRR", "percent": 0 },
-        { "text": "JOIN ME IN TORMENT", "percent": 0 },
-        { "text": "The pain... subsides", "percent": 0 },
-        { "text": "Your preset is being", "percent": 0 },
-        { "text": "Welcome to your session against: Raksha", "percent": 0 }
-      ],
-      "colors": [
-        [255, 255, 255],
-        [127, 169, 255],
-        [255, 0, 0],
-        [153, 255, 153],
-        [0, 255, 0]
-      ],
-      "type": "chat"
-    },
-    {
-      "name": "9. Shadow Pools",
-      "globalalarm": false,
-      "alarm": null,
-      "voice": null,
-      "tooltip": null,
-      "exportbar": false,
-      "resetonactive": false,
-      "lines": [],
-      "colors": [],
-      "type": "chat"
-    },
-    {
-      "name": "10. Minions",
-      "globalalarm": false,
-      "alarm": {
-        "sound": "upload:dpxm3:10. Protoxx - Duo - DPS - Minions",
-        "repeat": false
-      },
-      "voice": null,
-      "tooltip": null,
-      "exportbar": true,
-      "resetonactive": false,
-      "lines": [
-        { "text": "YOU ARE MY PREY", "percent": 100 },
-        { "text": "GRRARRR", "percent": 0 },
-        { "text": "RRRR", "percent": 0 },
-        { "text": "YOUR THOUGHTS BETRAY YOU", "percent": 0 },
-        { "text": "RRRROOOOOAARRR", "percent": 0 },
-        { "text": "JOIN ME IN TORMENT", "percent": 0 },
-        { "text": "The pain... subsides", "percent": 0 },
-        { "text": "Your preset is being", "percent": 0 },
-        { "text": "Welcome to your session against: Raksha", "percent": 0 }
-      ],
-      "colors": [
-        [255, 255, 255],
-        [127, 169, 255],
-        [255, 0, 0],
-        [153, 255, 153],
-        [0, 255, 0]
-      ],
-      "type": "chat"
-    },
-    {
-      "name": "11. Last Phase",
-      "globalalarm": false,
-      "alarm": {
-        "sound": "upload:dpxm4:11. Protoxx - Duo - DPS - Last phase",
-        "repeat": false
-      },
-      "voice": null,
-      "tooltip": null,
-      "exportbar": true,
-      "resetonactive": false,
-      "lines": [
-        {
-          "text": "It's too dangerous. I'll open the gates. Lure him through",
-          "percent": 100
-        },
-        { "text": "GRR", "percent": 0 },
-        { "text": "RRRROOOOOAARRR", "percent": 0 },
-        { "text": "JOIN ME IN TORMENT", "percent": 0 },
-        { "text": "The pain... subsides", "percent": 0 },
-        { "text": "Your preset is being", "percent": 0 },
-        { "text": "Welcome to your session against: Raksha", "percent": 0 }
-      ],
-      "colors": [
-        [255, 255, 255],
-        [127, 169, 255],
-        [255, 0, 0],
-        [153, 255, 153],
-        [0, 255, 0]
-      ],
-      "type": "chat"
-    },
-    {
-      "name": "12. Instant Kill",
-      "globalalarm": false,
-      "alarm": {
-        "sound": "upload:dpxm5:12. Protoxx - Duo - DPS - Instant kill",
-        "repeat": false
-      },
-      "voice": null,
-      "tooltip": null,
-      "exportbar": true,
-      "resetonactive": false,
-      "lines": [
-        { "text": "I WILL DRAG YOU INTO EREBUS", "percent": 100 },
-        {
-          "text": "You interrupt Raksha's powerful attack before he could finish charging it",
-          "percent": 0
-        },
-        {
-          "text": "Hiding behind the post stops Raksha from hitting you",
-          "percent": 0
-        },
-        { "text": "RRRAAAAR", "percent": 0 },
-        { "text": "RRRROOOOOAARRR", "percent": 0 },
-        { "text": "JOIN ME IN TORMENT", "percent": 0 },
-        { "text": "The pain... subsides", "percent": 0 },
-        { "text": "Your preset is being", "percent": 0 },
-        { "text": "Welcome to your session against: Raksha", "percent": 0 }
-      ],
-      "colors": [
-        [255, 255, 255],
-        [127, 169, 255],
-        [255, 0, 0],
-        [153, 255, 153],
-        [0, 255, 0]
-      ],
-      "type": "chat"
-    },
-    {
-      "name": "13. Collect shadow anima",
-      "globalalarm": false,
-      "alarm": {
-        "sound": "upload:dpxm6:13. Protoxx - Duo - DPS - Collect shadow anima",
-        "repeat": false
-      },
-      "voice": null,
-      "tooltip": null,
-      "exportbar": true,
-      "resetonactive": false,
-      "lines": [
-        { "text": "Collect that shadow", "percent": 100 },
-        { "text": "GRRARRR", "percent": 0 },
-        { "text": "RRRR", "percent": 0 },
-        { "text": "I WILL DRAG YOU INTO EREBUS", "percent": 0 },
-        { "text": "FLEE INSECT", "percent": 0 },
-        { "text": "RRRROOOOOAARRR", "percent": 0 },
-        { "text": "JOIN ME IN TORMENT", "percent": 0 },
-        { "text": "The pain... subsides", "percent": 0 },
-        { "text": "Your preset is being", "percent": 0 },
-        { "text": "Welcome to your session against: Raksha", "percent": 0 }
-      ],
-      "colors": [
-        [255, 255, 255],
-        [127, 169, 255],
-        [255, 0, 0],
-        [153, 255, 153],
-        [0, 255, 0]
-      ],
-      "type": "chat"
-    },
-    {
-      "name": "Choose one ending below and pause the others",
-      "globalalarm": false,
-      "alarm": null,
-      "voice": null,
-      "tooltip": null,
-      "exportbar": false,
-      "resetonactive": false,
-      "lines": [],
-      "colors": [],
-      "type": "chat"
-    },
-    {
-      "name": "14. Protoxx- Ending1 - Cup of tea",
-      "globalalarm": false,
-      "alarm": {
-        "sound": "upload:dpxm7:14. Protoxx - Ending1 - Cup of tea",
-        "repeat": false
-      },
-      "voice": null,
-      "tooltip": null,
-      "exportbar": true,
-      "resetonactive": false,
-      "lines": [
-        { "text": "The pain... subsides", "percent": 100 },
-        { "text": "Your preset is being", "percent": 0 },
-        { "text": "Welcome to your session against: Raksha", "percent": 0 }
-      ],
-      "colors": [
-        [255, 255, 255],
-        [127, 169, 255],
-        [255, 0, 0],
-        [153, 255, 153],
-        [0, 255, 0]
-      ],
-      "type": "chat"
-    },
-    {
-      "name": "14. Protoxx- Ending2 - Killed Barney",
-      "globalalarm": false,
-      "alarm": {
-        "sound": "upload:dpxm9:14. Protoxx - Ending2 - Killed Barney",
-        "repeat": false
-      },
-      "voice": null,
-      "tooltip": null,
-      "exportbar": true,
-      "resetonactive": false,
-      "lines": [
-        { "text": "The pain... subsides", "percent": 100 },
-        { "text": "Your preset is being", "percent": 0 },
-        { "text": "Welcome to your session against: Raksha", "percent": 0 }
-      ],
-      "colors": [
-        [255, 255, 255],
-        [127, 169, 255],
-        [255, 0, 0],
-        [153, 255, 153],
-        [0, 255, 0]
-      ],
-      "type": "chat"
-    },
-    {
-      "name": "14. Protoxx- Ending3 - Nicely done, now do it again",
-      "globalalarm": false,
-      "alarm": {
-        "sound": "upload:dpxna:14. Protoxx - Ending3 - Nicely done now do it again",
-        "repeat": false
-      },
-      "voice": null,
-      "tooltip": null,
-      "exportbar": true,
-      "resetonactive": false,
-      "lines": [
-        { "text": "The pain... subsides", "percent": 100 },
-        { "text": "Your preset is being", "percent": 0 },
-        { "text": "Welcome to your session against: Raksha", "percent": 0 }
-      ],
-      "colors": [
-        [255, 255, 255],
-        [127, 169, 255],
-        [255, 0, 0],
-        [153, 255, 153],
-        [0, 255, 0]
-      ],
-      "type": "chat"
-    },
-    {
-      "name": "Freedom if stunned",
-      "globalalarm": false,
-      "alarm": {
-        "sound": "upload:dpxph:15. Protoxx - Duo - DPS - Freedom Now",
-        "repeat": false
-      },
-      "voice": null,
-      "tooltip": null,
-      "exportbar": true,
-      "resetonactive": false,
-      "lines": [
-        { "text": "You've been prevented from moving", "percent": 100 },
-        { "text": "GRRARRR", "percent": 0 },
-        { "text": "RRRR", "percent": 0 },
-        { "text": "YOUR THOUGHTS BETRAY YOU", "percent": 0 },
-        { "text": " RRRROOOOOAARRR", "percent": 0 },
-        { "text": "JOIN ME IN TORMENT", "percent": 0 },
-        { "text": "The pain... subsides", "percent": 0 },
-        { "text": "Your preset is being", "percent": 0 },
-        { "text": "Welcome to your session against: Raksha", "percent": 0 },
-        { "text": "GAHH", "percent": 0 }
-      ],
-      "colors": [
-        [255, 255, 255],
-        [127, 169, 255],
-        [255, 0, 0],
-        [153, 255, 153],
-        [0, 255, 0]
-      ],
-      "type": "chat"
-    },
-    {
-      "name": "Elder Overload Salve - Pause if not using",
-      "globalalarm": false,
-      "alarm": {
-        "sound": "upload:dpv9e:5. Protoxx - Overload",
-        "repeat": false
-      },
-      "voice": null,
-      "tooltip": null,
-      "exportbar": true,
-      "resetonactive": false,
-      "lines": [
-        {
-          "text": "The effects of overload are about to wear off",
-          "percent": 100
-        },
-        {
-          "text": "Your resistance to dragonfire is about to run out",
-          "percent": 100
-        },
-        {
-          "text": "Your immunity to poison is about to expire",
-          "percent": 100
-        },
-        { "text": "Elder overload salve", "percent": 0 }
-      ],
-      "colors": [
-        [255, 255, 255],
-        [127, 169, 255],
-        [255, 0, 0]
-      ],
-      "type": "chat"
-    }
-  ],
-  "name": "Raksha - Duo - DPS- Protoxx ",
-  "baseName": "slayer"
+    ],
+    "name": "Raksha - Duo - DPS- Protoxx ",
+    "baseName": "slayer"
 }
