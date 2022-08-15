@@ -1,10 +1,18 @@
-# IgorsPresets - Boss Hub  
+# IgorsPresets - Boss Presets  Hub  
+
+<img src="assets/imgs/About%20banner.png" width=500>  
+
+- IgorsPresets helps PVM beginners who want to learn new bosses by reducing the time and resources spent going to Death's Office through calling out mechanics during boss encounters.  
+- IgorsPresets are created using the AfkWarden tool from [Alt1 Toolkit](https://runeapps.org/alt1) created by Skillbert.  
+- All current boss presets are created using:  
+  - The "General PVM Preset" that contains utility voice callouts for buffs, auras, potions etc.  
+  - Learner friendly boss mechanic call-outs voiced by your favourite content creators aimed at making learning new bosses or group roles easier.  
+- _**Igors Combat Companion**_, a standalone app, is being worked on in the background through a collaborative effort of talented individuals from the community to deliver the _One app to rule them all_ to the Runescape PVM community
 
 <img src="assets/imgs/How%20to%20Install%20banner.png" width=500>    
 
-- [Watch Video:](https://youtu.be/iF2VUQG2LLM)  
-OR  
-- **Follow the steps below:**  
+- # [Watch Video](https://youtu.be/iF2VUQG2LLM)   
+- # **Follow the steps below:**  
 1. Download and install Alt1 (https://runeapps.org/alt1)
 2. Open Runescape
 3. Click on Alt1 Toolkit on the top right of the Runescape Window
@@ -46,7 +54,7 @@ _**ENJOY!**_
 - [Group - Pad Charger](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/zammysub100-group-pads.json)  
 
 <img src="assets/imgs/Raksha%20banner.png" width=500>  
-<img src="assets/imgs/Protoxx%20banner.png" width=500>   
+<img src="assets/imgs/Protoxx%20banner.png" height=100>   
 
 **Bonus Endings**
 Please ensure you choose your preferred ending and pause the others:  
@@ -58,6 +66,6 @@ _3. "Nicely done, now do it again!"_
 - [Duo-BASE](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/raksha-duo-tank-protoxx.json)  
   
 <img src="assets/imgs/Zuk%20banner.png" width=500>  
-<img src="assets/imgs/The%20RS%20Guy%20banner.png" width=500>  
+<img src="assets/imgs/The%20RS%20Guy%20banner.png" height=100>  
 
 - [Normal Mode](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/zuk-nm-rsguy.json)  
