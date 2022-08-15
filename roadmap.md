@@ -1,0 +1,55 @@
+<img src="assets/imgs/Roadmap%20banner.png" width=500>   
+
+# Work in Progress  
+- Preset - Kerapac  
+- Preset - Hardmode TzKal-Zuk  
+- Preset - Elite Dungeon 1 "Temple of Aminishi"  
+- Preset - Elite Dungeon 2 "Dragonkin Laboratory"  
+- Preset - Elite Dungeon 3 "The Shadow Reef"  
+- Preset - Angel of Death  
+- Long term project - Igors Combat Companion - _One app to rule them all_ 
+  - Contact me on discord if you wish to join the project "igor picard#2626"  
+# Released Updates
+- **15th of August 2022**
+  - Update - Transitioned IgorsPresets to a github repository
+- **12nd of August 2022**
+  - Preset - Re-release Raksha (Solo/Duo DPS/Duo BASE) - Voice acted by Protoxx!
+  - Update - General PVM - Preliminary Voice Pack (Future content creators voices to be added to this)
+  - Preset - General PVM - Protoxx using voice lines acted by Protoxx!
+  - Preset - General PVM - The RS Guy using voice lines acted by The RS Guy!
+- **9th of August 2022**
+  - Preset - TzKal-Zuk Normal Mode - Voice acted by The RS Guy!
+  - Update - General PVM - now uses voice lines acted by The RS Guy!
+  - Video - How to Install IgorsPresets Video added to all Instruction Reddit Posts and to the Linktr.ee website  https://youtu.be/iF2VUQG2LLM
+- **7th of August 2022**
+  - Update - IgorsPresets is now featured on the PVME discord server boss guides (Join their discord for more in depth boss guides via this link https://discord.gg/pvme)
+- **5th of August 2022**
+  - Preset - Raksha
+  - Update - Added Elder overload salve reset trigger in the Overload Alarm to all existing presets
+- **1st of August 2022**
+  - Preset - Wilderness Reborn
+  - Update - All presets updated as per below:
+  - Removed Enhanced Excalibur as the buff detection is not working properly
+  - Updated Overload alarm to reset after drinking combination potions as well
+- **31st of July 2022**
+  - Preset - General PVM - Released in preparation for Wilderness Reborn update
+  - Update - Added "General PVM Preset" to Zamorak, Lord of Chaos - Solo - 0%-99% Preset
+  - Update - Added "General PVM Preset" to Zamorak, Lord of Chaos - Group DPS - 0%-99% Preset
+  - Update - Added "General PVM Preset" to Zamorak, Lord of Chaos - Group Pad Charger - 0%-99% Preset
+  - Update - Added "General PVM Preset" to Zamorak, Lord of Chaos - Group Witch Killer - 0%-99% Preset
+  - Update - Added "General PVM Preset" to Queen Black Dragon Preset
+- **26th of July 2022**
+  - Preset - Zamorak, Lord of Chaos - Group DPS - 0%-99%
+  - Preset - Zamorak, Lord of Chaos - Group Pad Charger - 0%-99%
+  - Preset - Zamorak, Lord of Chaos - Group Witch Killer - 0%-99%
+  - Preset - Queen Black Dragon
+- **15th of July 2022**
+  - Preset - Zamorak, Lord of Chaos - Solo - 0%-99%
+  - Website - https://linktr.ee/igorspresets
+  - Reddit - r/igorspresets
+  - Twitter - https://twitter.com/IgorsPresets
+# Future IgorsPresets
+- "General PVM Preset" to be used as a base for all future boss presets
+- Zamorak 100% Enrage - P7 will be added once the community figures out an easy way to tackle the mechanics
+- The goal for IgorsPresets is to ideally create a preset for all the bosses that have mechanics announced in the chatbox that allows this concept to work.
+- The foundation set by IgorsPresets will be used to build a standalone app (a project that I have started together with a number of talented individuals from the community so if someone with coding experience wishes to collaborate please add me on discord "igor picard#2626" and we can discuss further)
