@@ -38,9 +38,10 @@ _**ENJOY!**_
 - [Wilderness Reborn](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/wilderness.json)  
 
 <img src="assets/imgs/Creators%20banner.png" width=500>
+**These can be used for any boss encounter yet to be covered by this project. Includes alerts such as Buffs, Auras, Potions, etc.**  
 
-- [General PVM - Voice Pack - The RS Guy - Buffs, auras, potions etc.](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/general-rsguy.json)  
-- [General PVM - Voice Pack - Protoxx - Buffs, auras, potions etc.](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/general-protoxx.json)  
+- [General PVM - Voice Pack - The RS Guy](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/general-rsguy.json)  
+- [General PVM - Voice Pack - Protoxx](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/general-protoxx.json)  
 
 <img src="assets/imgs/QBD%20banner.png" width=500>
 
