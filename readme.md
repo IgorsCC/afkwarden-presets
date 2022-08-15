@@ -31,27 +31,24 @@ _**ENJOY!**_
 
 <img src="assets/imgs/Creators%20banner.png" width=500>
 
-**General PVM - Creators Voice Packs**  
 - [Voice Pack - The RS Guy](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/general-rsguy.json)  
 - [Voice Pack - Protoxx](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/general-protoxx.json)  
 
 <img src="assets/imgs/QBD%20banner.png" width=500>
 
-**Queen Black Dragon**  
-- [QBD](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/qbd.json)  
+- [Queen Black Dragon](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/qbd.json)  
 
 <img src="assets/imgs/Zamorak%20banner.png" width=500>  
 
-**Zamorak, The Lord of Chaos - Story/Normal Mode Sub 100%**  
 - [Solo](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/zammysub100-solo.json)  
 - [Group - DPS](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/zammysub100-group-dps.json)  
 - [Group - Witch Killer](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/zammysub100-group-witch.json)  
 - [Group - Pad Charger](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/zammysub100-group-pads.json)  
 
 <img src="assets/imgs/Raksha%20banner.png" width=500>  
+<img src="assets/imgs/Protoxx%20banner.png" width=500>   
 
-**Raksha - Voice acted by Protoxx with bonus endings**  
-
+**Bonus Endings**
 Please ensure you choose your preferred ending and pause the others:  
 _1. "I think it's time for a cup of tea!"_  
 _2. "Congratulations, you've killed Barney!"_  
@@ -61,6 +58,6 @@ _3. "Nicely done, now do it again!"_
 - [Duo-BASE](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/raksha-duo-tank-protoxx.json)  
   
 <img src="assets/imgs/Zuk%20banner.png" width=500>  
+<img src="assets/imgs/The%20RS%20Guy%20banner.png" width=500>  
 
-**TzKal-Zuk - Voice acted by The RS Guy**  
 - [Normal Mode](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/zuk-nm-rsguy.json)  
