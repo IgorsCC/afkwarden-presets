@@ -1,4 +1,4 @@
-# Igor's AFKWarden Presets
+# IgorsPresets - built with AfkWarden
 
 _**How to Install:**_  
 
