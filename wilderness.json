@@ -1,0 +1,480 @@
+{
+    "alerters": [
+        {
+            "name": "Lobby timer",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpa5a:0. GC-Lobby Timer",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": "About to get lobbied",
+            "exportbar": true,
+            "delay": 270,
+            "type": "inactive"
+        },
+        {
+            "name": "HP Alert",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpa5b:1. GC-HP Alert",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": "Your hp is low, heal up!",
+            "exportbar": true,
+            "stat": "hp",
+            "higherlower": "lower",
+            "treshold": 30,
+            "type": "actionbar"
+        },
+        {
+            "name": "Prayer Alert",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpa5c:2. GC-Prayer Alert",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": "Your prayer is low, pot up!",
+            "exportbar": true,
+            "stat": "pray",
+            "higherlower": "lower",
+            "treshold": 30,
+            "type": "actionbar"
+        },
+        {
+            "name": "Animate Dead",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpa5d:3. GC-Animate Dead",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": "Animate Dead",
+            "exportbar": true,
+            "resetonactive": false,
+            "lines": [
+                {
+                    "text": "Your control of the dead is wavering.",
+                    "percent": 100
+                },
+                {
+                    "text": "Your control of the dead fades, the spirits return to rest.",
+                    "percent": 0
+                }
+            ],
+            "colors": [
+                [255, 255, 255],
+                [127, 169, 255]
+            ],
+            "type": "chat"
+        },
+        {
+            "name": "Overload",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpa5e:4. GC-Overload",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": "Overload",
+            "exportbar": true,
+            "resetonactive": false,
+            "lines": [
+                {
+                    "text": "The effects of overload are about to wear off.",
+                    "percent": 100
+                },
+                { "text": "overload potion.", "percent": 0 },
+                { "text": "Aggroverload", "percent": 0 },
+                { "text": "Holy aggroverload", "percent": 0 },
+                { "text": "Holy overload", "percent": 0 },
+                { "text": "Overload salve", "percent": 0 },
+                { "text": "Perfect plus", "percent": 0 },
+                { "text": "Searing overload", "percent": 0 },
+                { "text": "Supreme overload", "percent": 0 },
+                { "text": "Elder overload salve", "percent": 0 }
+            ],
+            "colors": [
+                [255, 255, 255],
+                [127, 169, 255],
+                [255, 0, 0]
+            ],
+            "type": "chat"
+        },
+        {
+            "name": "Powerburst Unavailable",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpa5f:5. GC-Powerburst",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": null,
+            "exportbar": true,
+            "resetonactive": true,
+            "lines": [
+                {
+                    "text": "You can't drink a powerburst potion for another ",
+                    "percent": 100
+                }
+            ],
+            "colors": [
+                [255, 255, 255],
+                [127, 169, 255]
+            ],
+            "type": "chat"
+        },
+        {
+            "name": "God book",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpa5g:6. GC-God Book",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": null,
+            "exportbar": true,
+            "resetonactive": false,
+            "lines": [
+                { "text": "Your god book is no longer active", "percent": 100 },
+                { "text": "Your god book is now active", "percent": 0 }
+            ],
+            "colors": [
+                [255, 255, 255],
+                [127, 169, 255],
+                [255, 204, 0]
+            ],
+            "type": "chat"
+        },
+        {
+            "name": "Zerk Auras",
+            "globalalarm": false,
+            "alarm": { "sound": "upload:dpa5h:7. GC-Aura", "repeat": false },
+            "voice": null,
+            "tooltip": null,
+            "exportbar": true,
+            "resetonactive": false,
+            "lines": [
+                {
+                    "text": "Your aura will deplete in 1 minute",
+                    "percent": 100
+                },
+                { "text": "Your aura has depleted", "percent": 100 },
+                { "text": "You unleash a berserk rage", "percent": 0 },
+                { "text": "Your berserker rage has subsided", "percent": 100 }
+            ],
+            "colors": [
+                [255, 255, 255],
+                [255, 204, 0],
+                [127, 169, 255]
+            ],
+            "type": "chat"
+        },
+        {
+            "name": "Antifire",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpa5k:8. GC-Antifire",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": null,
+            "exportbar": true,
+            "resetonactive": false,
+            "lines": [
+                {
+                    "text": "Your resistance to dragonfire is about to run out",
+                    "percent": 100
+                },
+                {
+                    "text": "Your resistance to dragonfire has run out",
+                    "percent": 100
+                },
+                { "text": "antifire potion", "percent": 0 },
+                { "text": "Wyrmfire potion", "percent": 0 },
+                { "text": "Supreme overload salve", "percent": 0 },
+                { "text": "Overload salve", "percent": 0 },
+                { "text": "Elder overload salve", "percent": 0 }
+            ],
+            "colors": [
+                [255, 255, 255],
+                [127, 169, 255],
+                [255, 0, 0]
+            ],
+            "type": "chat"
+        },
+        {
+            "name": "Antipoison",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpa5p:9. GC-Antipoison",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": null,
+            "exportbar": true,
+            "resetonactive": false,
+            "lines": [
+                {
+                    "text": "Your immunity to poison is about to expire",
+                    "percent": 100
+                },
+                {
+                    "text": "Your immunity to poison has expired",
+                    "percent": 100
+                },
+                { "text": "You drink some of your Antipoison", "percent": 0 },
+                { "text": "Elder overload salve", "percent": 0 },
+                { "text": "Overload salve", "percent": 0 },
+                { "text": "Supreme overload salve", "percent": 0 }
+            ],
+            "colors": [
+                [255, 255, 255],
+                [127, 169, 255],
+                [255, 0, 0]
+            ],
+            "type": "chat"
+        },
+        {
+            "name": "Weapon Poison",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpa5q:10. GC-Weapon Poison",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": null,
+            "exportbar": true,
+            "resetonactive": false,
+            "lines": [
+                {
+                    "text": "Your poison potion is about to expire",
+                    "percent": 100
+                },
+                { "text": "Your poison potion has expired", "percent": 100 },
+                { "text": "You appiy some of your Weapon Poison", "percent": 0 }
+            ],
+            "colors": [
+                [255, 255, 255],
+                [127, 169, 255],
+                [255, 0, 0]
+            ],
+            "type": "chat"
+        },
+        {
+            "name": "Cannon decay",
+            "globalalarm": false,
+            "alarm": { "sound": "upload:dpa5r:11. GC-Cannon", "repeat": false },
+            "voice": null,
+            "tooltip": null,
+            "exportbar": true,
+            "resetonactive": true,
+            "lines": [
+                { "text": "Your cannon has almost decayed", "percent": 100 }
+            ],
+            "colors": [[255, 0, 0]],
+            "type": "chat"
+        },
+        {
+            "name": "Familiar tracker",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpa5s:12. GC-Familiar",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": null,
+            "exportbar": true,
+            "resetonactive": true,
+            "lines": [
+                {
+                    "text": "You have 1 minute before your familiar vanishes",
+                    "percent": 100
+                },
+                {
+                    "text": "You have 30 seconds before your familiar vanishes",
+                    "percent": 100
+                }
+            ],
+            "colors": [
+                [255, 255, 255],
+                [127, 169, 255],
+                [235, 47, 47]
+            ],
+            "type": "chat"
+        },
+        {
+            "name": "Insense Sticks",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpa5u:14. GC-Incense Sticks",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": null,
+            "exportbar": true,
+            "resetonactive": true,
+            "lines": [
+                { "text": "The effects have ended for:", "percent": 100 }
+            ],
+            "colors": [
+                [255, 255, 255],
+                [127, 169, 255],
+                [255, 0, 0]
+            ],
+            "type": "chat"
+        },
+        {
+            "name": "Volcano - Magic",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpdfx:Wildy - Volcano Magic",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": null,
+            "exportbar": true,
+            "resetonactive": true,
+            "lines": [{ "text": "You sense the magic", "percent": 100 }],
+            "colors": [
+                [255, 255, 255],
+                [127, 169, 255],
+                [235, 47, 47]
+            ],
+            "type": "chat"
+        },
+        {
+            "name": "Volcano - Range",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpdf4:Wildy - Volcano Ranged",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": null,
+            "exportbar": true,
+            "resetonactive": true,
+            "lines": [{ "text": "You sense a shard", "percent": 100 }],
+            "colors": [
+                [255, 255, 255],
+                [127, 169, 255],
+                [235, 47, 47]
+            ],
+            "type": "chat"
+        },
+        {
+            "name": "Slayer Task Completed",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpdf6:Wildy - Slayer Task Completed",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": null,
+            "exportbar": true,
+            "resetonactive": true,
+            "lines": [{ "text": "tasks in a row and gain", "percent": 100 }],
+            "colors": [
+                [255, 255, 255],
+                [127, 169, 255],
+                [51, 199, 20],
+                [255, 0, 0]
+            ],
+            "type": "chat"
+        },
+        {
+            "name": "Ambush",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpdf7:Wildy - Ambush",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": null,
+            "exportbar": true,
+            "resetonactive": true,
+            "lines": [
+                {
+                    "text": "The creatures of the Wilderness disapprove of your continued",
+                    "percent": 100
+                }
+            ],
+            "colors": [
+                [255, 255, 255],
+                [127, 169, 255],
+                [255, 0, 0]
+            ],
+            "type": "chat"
+        },
+        {
+            "name": "Elite Slayer Mob Spawn",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpdgd:Wildy - Elite Slayer Monster",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": null,
+            "exportbar": true,
+            "resetonactive": true,
+            "lines": [{ "text": "has appeared nearby.", "percent": 100 }],
+            "colors": [
+                [255, 255, 255],
+                [127, 169, 255],
+                [255, 0, 0]
+            ],
+            "type": "chat"
+        },
+        {
+            "name": "Threat level reset!",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpdge:Wildy - Threat Level Reset",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": null,
+            "exportbar": true,
+            "resetonactive": true,
+            "lines": [
+                {
+                    "text": "You feel a weight lifted off your shoulders as the Wilderness",
+                    "percent": 100
+                },
+                { "text": "Your preset is being", "percent": 0 }
+            ],
+            "colors": [
+                [255, 255, 255],
+                [127, 169, 255],
+                [0, 255, 0]
+            ],
+            "type": "chat"
+        },
+        {
+            "name": "Loot beam",
+            "globalalarm": false,
+            "alarm": {
+                "sound": "upload:dpdgg:Wildy - Loot Beam",
+                "repeat": false
+            },
+            "voice": null,
+            "tooltip": null,
+            "exportbar": true,
+            "resetonactive": true,
+            "lines": [
+                { "text": "golden beam shines over", "percent": 100 },
+                { "text": "rainbow shines over", "percent": 100 },
+                { "text": "festive beam shines over", "percent": 100 },
+                { "text": "festive beam shines over", "percent": 100 },
+                { "text": "water spout sprays over", "percent": 100 },
+                { "text": "Hearts twirl over", "percent": 100 }
+            ],
+            "colors": [[245, 151, 0]],
+            "type": "chat"
+        }
+    ],
+    "name": "Wilderness Reborn",
+    "baseName": "slayer"
+}
