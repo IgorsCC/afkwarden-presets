@@ -1,4 +1,4 @@
-# IgorsPresets - built with AfkWarden
+# IgorsPresets - Boss Hub
 
 _**How to Install:**_  
 
@@ -25,22 +25,30 @@ _**ENJOY!**_
 
 _**Current presets:**_  
 
+<img src="assets/imgs/Wildy%20banner.png" width=500>
+
 - [Wilderness Reborn](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/wilderness.json)  
+
+<img src="assets/imgs/Creators%20banner.png" width=500>
 
 **General PVM - Creators Voice Packs**  
 - [Voice Pack - The RS Guy](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/general-rsguy.json)  
 - [Voice Pack - Protoxx](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/general-protoxx.json)  
-  
+
+<img src="assets/imgs/QBD%20banner.png" width=500>
+
 **Queen Black Dragon**  
 - [QBD](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/qbd.json)  
-  
-**Zamorak, The Lord of Chaos - Normal Mode Sub 100%**  
+
+<img src="assets/imgs/Zamorak%20banner.png" width=500>  
+
+**Zamorak, The Lord of Chaos - Story/Normal Mode Sub 100%**  
 - [Solo](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/zammysub100-solo.json)  
 - [Group - DPS](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/zammysub100-group-dps.json)  
 - [Group - Witch Killer](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/zammysub100-group-witch.json)  
 - [Group - Pad Charger](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/zammysub100-group-pads.json)  
 
-<img src="assets/imgs/Raksha%20banner.png" width=500> 
+<img src="assets/imgs/Raksha%20banner.png" width=500>  
 
 **Raksha - Voice acted by Protoxx with bonus endings**  
 
