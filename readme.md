@@ -54,7 +54,7 @@ _**ENJOY!**_
 - [Group - Pad Charger](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/zammysub100-group-pads.json)  
 
 <img src="assets/imgs/Raksha%20banner.png" width=500>  
-<img src="assets/imgs/Protoxx%20banner.png" height=100>   
+<img src="assets/imgs/Protoxx%20banner.png" width=500>   
 
 **Bonus Endings**
 Please ensure you choose your preferred ending and pause the others:  
@@ -66,6 +66,6 @@ _3. "Nicely done, now do it again!"_
 - [Duo-BASE](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/raksha-duo-tank-protoxx.json)  
   
 <img src="assets/imgs/Zuk%20banner.png" width=500>  
-<img src="assets/imgs/The%20RS%20Guy%20banner.png" height=100>  
+<img src="assets/imgs/The%20RS%20Guy%20banner.png" width=500>  
 
 - [Normal Mode](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/zuk-nm-rsguy.json)  
