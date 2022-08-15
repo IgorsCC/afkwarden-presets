@@ -23,7 +23,7 @@ _Using Elder Overload Salve?_
 
 **ENJOY!**
 
-**Current presets:**  
+_**Current presets:**_  
 
 - [Wilderness Reborn](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/wilderness.json)  
 
