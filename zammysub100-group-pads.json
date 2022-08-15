@@ -1,0 +1,547 @@
+{
+  "alerters": [
+    {
+      "name": "Lobby timer",
+      "globalalarm": false,
+      "alarm": { "sound": "upload:dpa5a:0. GC-Lobby Timer", "repeat": false },
+      "voice": null,
+      "tooltip": "About to get lobbied",
+      "exportbar": true,
+      "delay": 270,
+      "type": "inactive"
+    },
+    {
+      "name": "HP Alert",
+      "globalalarm": false,
+      "alarm": { "sound": "upload:dpa5b:1. GC-HP Alert", "repeat": false },
+      "voice": null,
+      "tooltip": "Your hp is low, heal up!",
+      "exportbar": true,
+      "stat": "hp",
+      "higherlower": "lower",
+      "treshold": 30,
+      "type": "actionbar"
+    },
+    {
+      "name": "Prayer Alert",
+      "globalalarm": false,
+      "alarm": { "sound": "upload:dpa5c:2. GC-Prayer Alert", "repeat": false },
+      "voice": null,
+      "tooltip": "Your prayer is low, pot up!",
+      "exportbar": true,
+      "stat": "pray",
+      "higherlower": "lower",
+      "treshold": 30,
+      "type": "actionbar"
+    },
+    {
+      "name": "Animate Dead",
+      "globalalarm": false,
+      "alarm": { "sound": "upload:dpa5d:3. GC-Animate Dead", "repeat": false },
+      "voice": null,
+      "tooltip": "Animate Dead",
+      "exportbar": true,
+      "resetonactive": false,
+      "lines": [
+        { "text": "Your control of the dead is wavering.", "percent": 100 },
+        {
+          "text": "Your control of the dead fades, the spirits return to rest.",
+          "percent": 0
+        }
+      ],
+      "colors": [
+        [255, 255, 255],
+        [127, 169, 255]
+      ],
+      "type": "chat"
+    },
+    {
+      "name": "Overload",
+      "globalalarm": false,
+      "alarm": { "sound": "upload:dpa5e:4. GC-Overload", "repeat": false },
+      "voice": null,
+      "tooltip": "Overload",
+      "exportbar": true,
+      "resetonactive": false,
+      "lines": [
+        {
+          "text": "The effects of overload are about to wear off.",
+          "percent": 100
+        },
+        { "text": "overload potion.", "percent": 0 },
+        { "text": "Aggroverload", "percent": 0 },
+        { "text": "Holy aggroverload", "percent": 0 },
+        { "text": "Holy overload", "percent": 0 },
+        { "text": "Overload salve", "percent": 0 },
+        { "text": "Perfect plus", "percent": 0 },
+        { "text": "Searing overload", "percent": 0 },
+        { "text": "Supreme overload", "percent": 0 },
+        { "text": "Elder overload salve", "percent": 0 }
+      ],
+      "colors": [
+        [255, 255, 255],
+        [127, 169, 255],
+        [255, 0, 0]
+      ],
+      "type": "chat"
+    },
+    {
+      "name": "Powerburst Unavailable",
+      "globalalarm": false,
+      "alarm": { "sound": "upload:dpa5f:5. GC-Powerburst", "repeat": false },
+      "voice": null,
+      "tooltip": null,
+      "exportbar": true,
+      "resetonactive": true,
+      "lines": [
+        {
+          "text": "You can't drink a powerburst potion for another ",
+          "percent": 100
+        }
+      ],
+      "colors": [
+        [255, 255, 255],
+        [127, 169, 255]
+      ],
+      "type": "chat"
+    },
+    {
+      "name": "God book",
+      "globalalarm": false,
+      "alarm": { "sound": "upload:dpa5g:6. GC-God Book", "repeat": false },
+      "voice": null,
+      "tooltip": null,
+      "exportbar": true,
+      "resetonactive": false,
+      "lines": [
+        { "text": "Your god book is no longer active", "percent": 100 },
+        { "text": "Your god book is now active", "percent": 0 }
+      ],
+      "colors": [
+        [255, 255, 255],
+        [127, 169, 255],
+        [255, 204, 0]
+      ],
+      "type": "chat"
+    },
+    {
+      "name": "Zerk Auras",
+      "globalalarm": false,
+      "alarm": { "sound": "upload:dpa5h:7. GC-Aura", "repeat": false },
+      "voice": null,
+      "tooltip": null,
+      "exportbar": true,
+      "resetonactive": false,
+      "lines": [
+        { "text": "Your aura will deplete in 1 minute", "percent": 100 },
+        { "text": "Your aura has depleted", "percent": 100 },
+        { "text": "You unleash a berserk rage", "percent": 0 },
+        { "text": "Your berserker rage has subsided", "percent": 100 }
+      ],
+      "colors": [
+        [255, 255, 255],
+        [255, 204, 0],
+        [127, 169, 255]
+      ],
+      "type": "chat"
+    },
+    {
+      "name": "Antifire",
+      "globalalarm": false,
+      "alarm": { "sound": "upload:dpa5k:8. GC-Antifire", "repeat": false },
+      "voice": null,
+      "tooltip": null,
+      "exportbar": true,
+      "resetonactive": false,
+      "lines": [
+        {
+          "text": "Your resistance to dragonfire is about to run out",
+          "percent": 100
+        },
+        { "text": "Your resistance to dragonfire has run out", "percent": 100 },
+        { "text": "antifire potion", "percent": 0 },
+        { "text": "Wyrmfire potion", "percent": 0 },
+        { "text": "Supreme overload salve", "percent": 0 },
+        { "text": "Overload salve", "percent": 0 },
+        { "text": "Elder overload salve", "percent": 0 }
+      ],
+      "colors": [
+        [255, 255, 255],
+        [127, 169, 255],
+        [255, 0, 0]
+      ],
+      "type": "chat"
+    },
+    {
+      "name": "Antipoison",
+      "globalalarm": false,
+      "alarm": { "sound": "upload:dpa5p:9. GC-Antipoison", "repeat": false },
+      "voice": null,
+      "tooltip": null,
+      "exportbar": true,
+      "resetonactive": false,
+      "lines": [
+        {
+          "text": "Your immunity to poison is about to expire",
+          "percent": 100
+        },
+        { "text": "Your immunity to poison has expired", "percent": 100 },
+        { "text": "You drink some of your Antipoison", "percent": 0 },
+        { "text": "Elder overload salve", "percent": 0 },
+        { "text": "Overload salve", "percent": 0 },
+        { "text": "Supreme overload salve", "percent": 0 }
+      ],
+      "colors": [
+        [255, 255, 255],
+        [127, 169, 255],
+        [255, 0, 0]
+      ],
+      "type": "chat"
+    },
+    {
+      "name": "Weapon Poison",
+      "globalalarm": false,
+      "alarm": {
+        "sound": "upload:dpa5q:10. GC-Weapon Poison",
+        "repeat": false
+      },
+      "voice": null,
+      "tooltip": null,
+      "exportbar": true,
+      "resetonactive": false,
+      "lines": [
+        { "text": "Your poison potion is about to expire", "percent": 100 },
+        { "text": "Your poison potion has expired", "percent": 100 },
+        { "text": "You appiy some of your Weapon Poison", "percent": 0 }
+      ],
+      "colors": [
+        [255, 255, 255],
+        [127, 169, 255],
+        [255, 0, 0]
+      ],
+      "type": "chat"
+    },
+    {
+      "name": "Cannon decay",
+      "globalalarm": false,
+      "alarm": { "sound": "upload:dpa5r:11. GC-Cannon", "repeat": false },
+      "voice": null,
+      "tooltip": null,
+      "exportbar": true,
+      "resetonactive": true,
+      "lines": [{ "text": "Your cannon has almost decayed", "percent": 100 }],
+      "colors": [[255, 0, 0]],
+      "type": "chat"
+    },
+    {
+      "name": "Familiar tracker",
+      "globalalarm": false,
+      "alarm": { "sound": "upload:dpa5s:12. GC-Familiar", "repeat": false },
+      "voice": null,
+      "tooltip": null,
+      "exportbar": true,
+      "resetonactive": true,
+      "lines": [
+        {
+          "text": "You have 1 minute before your familiar vanishes",
+          "percent": 100
+        },
+        {
+          "text": "You have 30 seconds before your familiar vanishes",
+          "percent": 100
+        }
+      ],
+      "colors": [
+        [255, 255, 255],
+        [127, 169, 255],
+        [235, 47, 47]
+      ],
+      "type": "chat"
+    },
+    {
+      "name": "Insense Sticks",
+      "globalalarm": false,
+      "alarm": {
+        "sound": "upload:dpa5u:14. GC-Incense Sticks",
+        "repeat": false
+      },
+      "voice": null,
+      "tooltip": null,
+      "exportbar": true,
+      "resetonactive": true,
+      "lines": [{ "text": "The effects have ended for:", "percent": 100 }],
+      "colors": [
+        [255, 255, 255],
+        [127, 169, 255],
+        [255, 0, 0]
+      ],
+      "type": "chat"
+    },
+    {
+      "name": "Progress Tracker",
+      "globalalarm": false,
+      "alarm": null,
+      "voice": null,
+      "tooltip": null,
+      "exportbar": true,
+      "resetonactive": false,
+      "lines": [
+        { "text": "That's your plan? The Edicts? HA!", "percent": 16 },
+        { "text": "You actually think this will work,", "percent": 32 },
+        { "text": "This is no longer amusing. Mortals", "percent": 48 },
+        { "text": "This has gone on long enough", "percent": 64 },
+        { "text": "You dare defy me?", "percent": 80 },
+        { "text": "NO GIELINOR WILL BURN! CHAOS WILL REIGN!", "percent": 100 },
+        { "text": "So eager to meet your end.", "percent": 0 },
+        { "text": "Die. And be forgotten.", "percent": 0 },
+        { "text": "Your preset is being withdrawn.", "percent": 0 }
+      ],
+      "colors": [
+        [255, 255, 255],
+        [127, 169, 255],
+        [232, 4, 4],
+        [153, 255, 153]
+      ],
+      "type": "chat"
+    },
+    {
+      "name": "Channeler - HEED MY CALL!",
+      "globalalarm": false,
+      "alarm": {
+        "sound": "upload:dn2nd:Channeler  - Pad Charger",
+        "repeat": false
+      },
+      "voice": null,
+      "tooltip": "Pull Zamorak to next edict!",
+      "exportbar": true,
+      "resetonactive": false,
+      "lines": [
+        { "text": "HEED MY CALL!", "percent": 100 },
+        { "text": "That's your plan?", "percent": 0 },
+        { "text": "You actually think that this will work,", "percent": 0 },
+        { "text": "This is no longer amusing.", "percent": 0 },
+        { "text": "This has gone on long enough.", "percent": 0 },
+        { "text": "You dare defy me?", "percent": 0 },
+        {
+          "text": "As you restore the Edict, Zamorak draws the remaining power",
+          "percent": 0
+        },
+        { "text": "Your preset is being withdrawn.", "percent": 0 }
+      ],
+      "colors": [
+        [127, 169, 255],
+        [255, 255, 255],
+        [232, 4, 4],
+        [153, 255, 153]
+      ],
+      "type": "chat"
+    },
+    {
+      "name": "SLAM - This world will burn",
+      "globalalarm": false,
+      "alarm": { "sound": "upload:dn2k8:SLAM", "repeat": false },
+      "voice": null,
+      "tooltip": "Pray Melee, walk under Zammy and Debilitate!",
+      "exportbar": true,
+      "resetonactive": false,
+      "lines": [
+        { "text": "This world will burn", "percent": 100 },
+        { "text": "HEED MY CALL!", "percent": 0 },
+        { "text": "CHAOS, UNFETTERED!", "percent": 0 },
+        { "text": "Step into the dark...", "percent": 0 },
+        { "text": "I will tear you asunder!", "percent": 0 },
+        { "text": "FEEL THE RAGE OF A GOD!", "percent": 0 },
+        { "text": "You're already dead.", "percent": 0 },
+        { "text": "Your preset is being withdrawn.", "percent": 0 }
+      ],
+      "colors": [
+        [127, 169, 255],
+        [255, 255, 255],
+        [232, 4, 4],
+        [153, 255, 153]
+      ],
+      "type": "chat"
+    },
+    {
+      "name": "INFERNUS - Step into the dark...Meet your death.",
+      "globalalarm": false,
+      "alarm": {
+        "sound": "upload:dn2nf:INFERNUS - Pad Charger",
+        "repeat": false
+      },
+      "voice": null,
+      "tooltip": "Match the rune to the pad and stun Zamorak.",
+      "exportbar": true,
+      "resetonactive": false,
+      "lines": [
+        { "text": "Step into the dark...", "percent": 100 },
+        { "text": "You enter, unharmed.", "percent": 0 },
+        { "text": "Your preset is being withdrawn.", "percent": 0 }
+      ],
+      "colors": [
+        [127, 169, 255],
+        [255, 255, 255],
+        [232, 4, 4],
+        [153, 255, 153],
+        [0, 255, 0]
+      ],
+      "type": "chat"
+    },
+    {
+      "name": "RUNE - You're already dead.",
+      "globalalarm": false,
+      "alarm": { "sound": "upload:dn2mf:RUNE", "repeat": false },
+      "voice": null,
+      "tooltip": "Anticipate/Freedom over black smoke",
+      "exportbar": true,
+      "resetonactive": false,
+      "lines": [
+        { "text": "You're already dead.", "percent": 100 },
+        { "text": "HEED MY CALL!", "percent": 0 },
+        { "text": "CHAOS, UNFETTERED!", "percent": 0 },
+        { "text": "This world will burn", "percent": 0 },
+        { "text": "Step into the dark...", "percent": 0 },
+        { "text": "I will tear you asunder!", "percent": 0 },
+        { "text": "FEEL THE RAGE OF A GOD!", "percent": 0 },
+        { "text": "Your preset is being withdrawn.", "percent": 0 }
+      ],
+      "colors": [
+        [255, 255, 255],
+        [127, 169, 255],
+        [232, 4, 4],
+        [153, 255, 153]
+      ],
+      "type": "chat"
+    },
+    {
+      "name": "CAGE - CHAOS, UNFETTERED!",
+      "globalalarm": false,
+      "alarm": { "sound": "upload:dn2mm:CAGE", "repeat": false },
+      "voice": null,
+      "tooltip": "Pray Mage and use Debilitate or Devotion!",
+      "exportbar": true,
+      "resetonactive": false,
+      "lines": [
+        { "text": "CHAOS, UNFETTERED!", "percent": 100 },
+        { "text": "HEED MY CALL!", "percent": 0 },
+        { "text": "This world will burn", "percent": 0 },
+        { "text": "You're already dead.", "percent": 0 },
+        { "text": "I will tear you asunder!", "percent": 0 },
+        { "text": "FEEL THE RAGE OF A GOD!", "percent": 0 },
+        { "text": "Step into the dark...", "percent": 0 },
+        { "text": "Your preset is being withdrawn.", "percent": 0 }
+      ],
+      "colors": [
+        [127, 169, 255],
+        [255, 255, 255],
+        [232, 4, 4],
+        [153, 255, 153]
+      ],
+      "type": "chat"
+    },
+    {
+      "name": "CURL UP1 - I will tear you asunder!",
+      "globalalarm": false,
+      "alarm": { "sound": "upload:dn2mn:CURL UP1", "repeat": false },
+      "voice": null,
+      "tooltip": "Stun Zamorak!",
+      "exportbar": true,
+      "resetonactive": false,
+      "lines": [
+        { "text": "I will tear you asunder!", "percent": 100 },
+        { "text": "1/1.", "percent": 0 },
+        { "text": "1/2.", "percent": 50 },
+        { "text": "2/2.", "percent": 0 },
+        { "text": "1/3.", "percent": 33 },
+        { "text": "2/3.", "percent": 66 },
+        { "text": "3/3.", "percent": 0 },
+        { "text": "1/4.", "percent": 25 },
+        { "text": "2/4.", "percent": 50 },
+        { "text": "3/4.", "percent": 75 },
+        { "text": "4/4.", "percent": 0 },
+        { "text": "1/5.", "percent": 20 },
+        { "text": "2/5.", "percent": 40 },
+        { "text": "3/5.", "percent": 60 },
+        { "text": "4/5.", "percent": 80 },
+        { "text": "5/5.", "percent": 0 },
+        { "text": "FEEL THE RAGE OF A GOD", "percent": 0 },
+        { "text": "Your preset is being withdrawn.", "percent": 0 }
+      ],
+      "colors": [
+        [127, 169, 255],
+        [255, 255, 255],
+        [232, 4, 4],
+        [153, 255, 153],
+        [0, 255, 0]
+      ],
+      "type": "chat"
+    },
+    {
+      "name": "CURL UP2 - FEEL THE RAGE OF A GOD",
+      "globalalarm": false,
+      "alarm": { "sound": "upload:dn2ms:CURL UP2", "repeat": false },
+      "voice": null,
+      "tooltip": "Equip shield and resonate!",
+      "exportbar": true,
+      "resetonactive": false,
+      "lines": [
+        { "text": "FEEL THE RAGE OF A GOD", "percent": 100 },
+        {
+          "text": "You drink some of your Powerburst of vitality.",
+          "percent": 0
+        },
+        { "text": "You can't drink a powerburst potion", "percent": 0 },
+        { "text": "HEED MY CALL!", "percent": 0 },
+        { "text": "CHAOS, UNFETTERED!", "percent": 0 },
+        { "text": "This world will burn", "percent": 0 },
+        { "text": "Step into the dark...", "percent": 0 },
+        { "text": "You're already dead.", "percent": 0 },
+        { "text": "Your preset is being withdrawn.", "percent": 0 }
+      ],
+      "colors": [
+        [127, 169, 255],
+        [255, 255, 255],
+        [232, 4, 4],
+        [153, 255, 153]
+      ],
+      "type": "chat"
+    },
+    {
+      "name": "Witch still in Infernus",
+      "globalalarm": false,
+      "alarm": {
+        "sound": "upload:dn2ng:Witch still in Infernus - Pad Charger",
+        "repeat": false
+      },
+      "voice": null,
+      "tooltip": "Witch still in Infernus",
+      "exportbar": true,
+      "resetonactive": false,
+      "lines": [
+        {
+          "text": "Zamorak's connection to the runes is too strong.",
+          "percent": 100
+        },
+        {
+          "text": "As you restore the Edict, Zamorak draws the remaining power",
+          "percent": 0
+        },
+        { "text": "That's your plan?", "percent": 0 },
+        { "text": "You actually think this will work,", "percent": 0 },
+        { "text": "This is no longer amusing.", "percent": 0 },
+        { "text": "This has gone on long enough.", "percent": 0 },
+        { "text": "You dare defy me?", "percent": 0 },
+        { "text": "Your preset is being withdrawn.", "percent": 0 }
+      ],
+      "colors": [
+        [255, 255, 255],
+        [127, 169, 255],
+        [235, 47, 47],
+        [153, 255, 153]
+      ],
+      "type": "chat"
+    }
+  ],
+  "name": "Zamorak-Group-Pad Charger",
+  "baseName": "slayer"
+}
