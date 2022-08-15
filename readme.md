@@ -50,5 +50,7 @@ _3. "Nicely done, now do it again!"_
 - [Duo-DPS](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/raksha-duo-dps-protoxx.json)  
 - [Duo-BASE](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/raksha-duo-tank-protoxx.json)  
   
+<img src="assets/imgs/Zuk%20banner.png" width=500>
+
 **TzKal-Zuk - Voice acted by The RS Guy**  
 - [Normal Mode](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/zuk-nm-rsguy.json)  
