@@ -40,7 +40,12 @@ _**Current presets:**_
 - [Group - Witch Killer](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/zammysub100-group-witch.json)  
 - [Group - Pad Charger](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/zammysub100-group-pads.json)  
   
-**Raksha - Voice acted by Protoxx**  
+**Raksha - Voice acted by Protoxx with bonus endings**  
+
+Please ensure you choose your preferred ending and pause the others:  
+_1. "I think it's time for a cup of tea!"_  
+_2. "Congratulations, you've killed Barney!"_  
+_3. "Nicely done, now do it again!"_  
 - [Solo](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/raksha-solo-protoxx.json)  
 - [Duo-DPS](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/raksha-duo-dps-protoxx.json)  
 - [Duo-BASE](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/raksha-duo-tank-protoxx.json)  
