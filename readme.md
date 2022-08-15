@@ -1,8 +1,9 @@
 # Igor's AFKWarden Presets
 
-**How to Install:**  
-Watch Video: https://youtu.be/iF2VUQG2LLM
-or
+_**How to Install:**_  
+
+**Watch Video:** https://youtu.be/iF2VUQG2LLM  
+or  
 **Follow Step by step:**  
 1. Download and install Alt1 (https://runeapps.org/alt1)
 2. Open Runescape
@@ -21,7 +22,7 @@ or
  2. No: Pause Elder Overload Salve alert.
 **ENJOY!**
 
-Current presets:
+**Current presets:**
 
 - [Raksha](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/raksha.json)
 - [Wilderness](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/wilderness.json)
