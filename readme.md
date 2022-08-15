@@ -3,7 +3,7 @@
 _**How to Install:**_  
 
 - [Watch Video:](https://youtu.be/iF2VUQG2LLM)  
-or  
+OR  
 - **Follow the steps below:**  
 1. Download and install Alt1 (https://runeapps.org/alt1)
 2. Open Runescape
