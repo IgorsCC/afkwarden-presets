@@ -1,10 +1,9 @@
 # Igor's AFKWarden Presets
 
-**How to Install:**
-
+**How to Install:**  
 Watch Video: https://youtu.be/iF2VUQG2LLM
 or
-**Follow Step by step:**
+**Follow Step by step:**  
 1. Download and install Alt1 (https://runeapps.org/alt1)
 2. Open Runescape
 3. Click on Alt1 Toolkit on the top right of the Runescape Window
