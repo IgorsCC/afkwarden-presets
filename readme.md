@@ -39,7 +39,9 @@ _**Current presets:**_
 - [Group - DPS](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/zammysub100-group-dps.json)  
 - [Group - Witch Killer](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/zammysub100-group-witch.json)  
 - [Group - Pad Charger](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/zammysub100-group-pads.json)  
-  
+
+<img src="assets/imgs/Raksha%20banner.png" width=500> 
+
 **Raksha - Voice acted by Protoxx with bonus endings**  
 
 Please ensure you choose your preferred ending and pause the others:  
