@@ -50,10 +50,10 @@ _**These can be used for any boss encounter yet to be covered by this project. I
 
 <img src="assets/imgs/Zamorak%20banner.png" width=500>  
 
-- [Solo](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/zammysub100-solo.json)  
-- [Group - DPS](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/zammysub100-group-dps.json)  
-- [Group - Witch Killer](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/zammysub100-group-witch.json)  
-- [Group - Pad Charger](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/zammysub100-group-pads.json)  
+- [Zamorak - Solo](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/zammysub100-solo.json)  
+- [Zamorak - Group - DPS](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/zammysub100-group-dps.json)  
+- [Zamorak - Group - Witch Killer](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/zammysub100-group-witch.json)  
+- [Zamorak - Group - Pad Charger](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/zammysub100-group-pads.json)  
 
 <img src="assets/imgs/Raksha%20banner.png" width=500>  
 <img src="assets/imgs/Protoxx%20banner.png" width=500>   
@@ -63,11 +63,11 @@ Please ensure you choose your preferred ending and pause the others:
 _1. "I think it's time for a cup of tea!"_  
 _2. "Congratulations, you've killed Barney!"_  
 _3. "Nicely done, now do it again!"_  
-- [Solo](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/raksha-solo-protoxx.json)  
-- [Duo-DPS](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/raksha-duo-dps-protoxx.json)  
-- [Duo-BASE](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/raksha-duo-tank-protoxx.json)  
+- [Raksha - Solo](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/raksha-solo-protoxx.json)  
+- [Raksha - Duo-DPS](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/raksha-duo-dps-protoxx.json)  
+- [Raksha - Duo-BASE](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/raksha-duo-tank-protoxx.json)  
   
 <img src="assets/imgs/Zuk%20banner.png" width=500>  
 <img src="assets/imgs/The%20RS%20Guy%20banner.png" width=500>  
 
-- [Normal Mode](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/zuk-nm-rsguy.json)  
+- [TzKal-Zuk - Normal Mode](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/zuk-nm-rsguy.json)  
