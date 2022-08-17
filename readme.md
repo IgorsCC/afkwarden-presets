@@ -35,25 +35,25 @@ _**ENJOY!**_
 
 <img src="assets/imgs/Wildy%20banner.png" width=500>
 
-- [Wilderness Reborn](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/wilderness.json)  
+- [Wilderness Reborn](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/presets/wilderness.json)  
 
 <img src="assets/imgs/Creators%20banner.png" width=500>  
 
 _**These can be used for any boss encounter yet to be covered by this project. Includes alerts such as Buffs, Auras, Potions, etc.**_  
 
-- [General PVM - Voice Pack - The RS Guy](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/general-rsguy.json)  
-- [General PVM - Voice Pack - Protoxx](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/general-protoxx.json)  
+- [General PVM - Voice Pack - The RS Guy](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/presets/general-rsguy.json)  
+- [General PVM - Voice Pack - Protoxx](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/presets/general-protoxx.json)  
 
 <img src="assets/imgs/QBD%20banner.png" width=500>
 
-- [Queen Black Dragon](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/qbd.json)  
+- [Queen Black Dragon](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/presets/qbd.json)  
 
 <img src="assets/imgs/Zamorak%20banner.png" width=500>  
 
-- [Zamorak - Solo](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/zammysub100-solo.json)  
-- [Zamorak - Group - DPS](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/zammysub100-group-dps.json)  
-- [Zamorak - Group - Witch Killer](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/zammysub100-group-witch.json)  
-- [Zamorak - Group - Pad Charger](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/zammysub100-group-pads.json)  
+- [Zamorak - Solo](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/presets/zammysub100-solo.json)  
+- [Zamorak - Group - DPS](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/presets/zammysub100-group-dps.json)  
+- [Zamorak - Group - Witch Killer](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/presets/zammysub100-group-witch.json)  
+- [Zamorak - Group - Pad Charger](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/presets/zammysub100-group-pads.json)  
 
 <img src="assets/imgs/Raksha%20banner.png" width=500>  
 <img src="assets/imgs/Protoxx%20banner.png" width=500>   
@@ -63,11 +63,11 @@ Please ensure you choose your preferred ending and pause the others:
 _1. "I think it's time for a cup of tea!"_  
 _2. "Congratulations, you've killed Barney!"_  
 _3. "Nicely done, now do it again!"_  
-- [Raksha - Solo](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/raksha-solo-protoxx.json)  
-- [Raksha - Duo-DPS](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/raksha-duo-dps-protoxx.json)  
-- [Raksha - Duo-BASE](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/raksha-duo-tank-protoxx.json)  
+- [Raksha - Solo](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/presets/raksha-solo-protoxx.json)  
+- [Raksha - Duo-DPS](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/presets/raksha-duo-dps-protoxx.json)  
+- [Raksha - Duo-BASE](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/presets/raksha-duo-tank-protoxx.json)  
   
 <img src="assets/imgs/Zuk%20banner.png" width=500>  
 <img src="assets/imgs/The%20RS%20Guy%20banner.png" width=500>  
 
-- [TzKal-Zuk - Normal Mode](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/zuk-nm-rsguy.json)  
+- [TzKal-Zuk - Normal Mode](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/presets/zuk-nm-rsguy.json)  
