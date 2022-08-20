@@ -1,0 +1,16 @@
+{
+	"appName": "Zuk Hardmode helper",
+	"description": "Zuk Hardmode helper",
+	"appUrl":"./",
+	"configUrl":"./appconfig.jon",
+	"iconUrl": "images/zuk.png",
+	"defaultWidth": 200,
+	"defaultHeight": 200,
+	"minWidth": 0,
+	"minHeight": 0,
+	"maxWidth": 1400,
+	"maxHeight": 1400,
+	"requestHandlers": [ ],
+	"activators": [ ],
+	"permissions": "overlay,pixel,gamestate"
+}

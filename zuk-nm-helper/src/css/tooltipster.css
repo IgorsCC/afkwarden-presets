@@ -1,0 +1,57 @@
+.tooltipster-follower .tooltipster-box {
+	border:1px #5D2E15 solid;
+	background-color:black;
+}
+.tooltipster-follower .tooltipster-content {
+	font-family:rs-pro-3;
+	color:white;
+	padding:3px;
+}
+.tooltipster-follower.tooltipster-noir .tooltipster-box {
+	border-radius: 0px; 
+	border: 3px solid black;
+	background: #fff;
+}
+.tooltipster-follower.tooltipster-noir .tooltipster-content {
+	color: black;
+}
+/* Tooltip container */
+.tooltip {
+    position: relative;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    min-width:100px;
+    max-width: 200px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
+    border:1px white solid;
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 12000;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+.tooltip-top {
+	font-size:xx-small;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -100%;
+}
+.tooltip-top.head {
+	margin-left: -60px;
+}
+.tooltip-top.stomach {
+	margin-left: -180px;
+}
+.tooltip-top.legs {
+	margin-left: -120px;
+}
