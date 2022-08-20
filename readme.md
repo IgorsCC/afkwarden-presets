@@ -1,4 +1,4 @@
-# IgorsPresets - Boss Presets  Hub  
+# IgorsPresets - Boss Presets Hub  
 
 <img src="assets/imgs/About%20banner.png" width=500>  
 
@@ -36,7 +36,7 @@ _**ENJOY!**_
 
 <img src="assets/imgs/Current%20Presets%20banner.png" width=500>  
 
-<img src="assets/imgs/Wildy%20banner.png" width=500>
+<img src="assets/imgs/Wildy%20banner.png" width=500>  
 
 - [Wilderness Reborn](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/presets/wilderness.json)  
 
@@ -46,14 +46,14 @@ _**These can be used for any boss encounter yet to be covered by this project. I
 
 - [General PVM - Voice Pack - The RS Guy](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/presets/general-rsguy.json)  
 - [General PVM - Voice Pack - Protoxx](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/presets/general-protoxx.json)  
-- [General PVM - Voice Pack - Wazzy](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/presets/general-wazzy.json)
+- [General PVM - Voice Pack - Wazzy](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/presets/general-wazzy.json)  
 
 <img src="assets/imgs/QBD%20banner.png" width=500>
 
 - [Queen Black Dragon](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/presets/qbd.json)  
 
-<img src="assets/imgs/Kerapac%20banner.png" width=500>
-- [Kerapac - Normal Mode](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/presets/kerapac-nm.json) 
+<img src="assets/imgs/Kerapac%20banner.png" width=500>  
+- [Kerapac - Normal Mode](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/presets/kerapac-nm.json)  
 
 <img src="assets/imgs/Zamorak%20banner.png" width=500>  
 
