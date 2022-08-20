@@ -32,7 +32,7 @@ _Using Elder Overload Salve?_
 _**ENJOY!**_  
 
 <img src="assets/imgs/Wallpapers%20Banners.png" width=500>  
-- [Access Wallpapers](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/wallpapers.md) - *Created by ChaosArtRS*  
+- [Access Wallpapers]([https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/wallpapers.md](https://github.com/IgorsCC/afkwarden-presets/blob/master/wallpapers.md)) - *Created by ChaosArtRS*  
 
 <img src="assets/imgs/Current%20Presets%20banner.png" width=500>  
 
