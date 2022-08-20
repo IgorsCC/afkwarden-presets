@@ -1,4 +1,4 @@
-[Back to Hub]([https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/readme.md](https://github.com/IgorsCC/afkwarden-presets/blob/master/readme.md))  
+[Back to Hub]([https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/readme.md](https://github.com/IgorsCC/afkwarden-presets/blob/master/readme.md)  
 <img src="assets/imgs/Wallpapers%20Banners.png" width=500>  
 
 <img src="assets/wallpapers/KerapacWallpaper4k.png" width=500>  
