@@ -2,7 +2,6 @@
 <img src="assets/imgs/Roadmap%20banner.png" width=500>   
 
 # Work in Progress  
-- Preset - Kerapac  
 - Preset - Hardmode TzKal-Zuk  
 - Preset - Elite Dungeon 1 "Temple of Aminishi"  
 - Preset - Elite Dungeon 2 "Dragonkin Laboratory"  
@@ -11,6 +10,10 @@
 - Long term project - Igors Combat Companion - _One app to rule them all_ 
   - Contact me on discord if you wish to join the project "igor picard#2626"  
 # Released Updates
+- **20th of August 2022**
+  - Preset - Kerapac Normal Mode - Voice acted by Wazzy!
+  - Update - Introduced a 4k Wallpaper Hub.
+    - Since ChaosArtRS joined the project as an artist, this Hub will be populated with more artworks as the project grows.
 - **15th of August 2022**
   - Update - Transitioned IgorsPresets to a github repository
 - **12nd of August 2022**
