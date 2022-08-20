@@ -31,10 +31,6 @@ _Using Elder Overload Salve?_
 
 # _**ENJOY!**_  
 
-<img src="assets/imgs/Wallpapers%20Banners.png" width=500>  
-
-- [Go to 4k Wallpapers Hub](https://github.com/IgorsCC/afkwarden-presets/blob/master/wallpapers.md) - *Courtesy of ChaosArtRS*
-#
 <img src="assets/imgs/Current%20Presets%20banner.png" width=500>  
 
 #
@@ -88,6 +84,11 @@ _3. "Nicely done, now do it again!"_
 
 - [TzKal-Zuk - Normal Mode](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/presets/zuk-nm-rsguy.json)  
 #
+
+<img src="assets/imgs/Wallpapers%20Banners.png" width=500>  
+
+- [Go to 4k Wallpapers Hub](https://github.com/IgorsCC/afkwarden-presets/blob/master/wallpapers.md) - *Courtesy of ChaosArtRS*
+#
 <img src="assets/imgs/Roadmap%20banner.png" width=500>  
 
-[Go to Roadmap](https://github.com/IgorsCC/afkwarden-presets/blob/master/roadmap.md)
+- [Go to Roadmap](https://github.com/IgorsCC/afkwarden-presets/blob/master/roadmap.md)
