@@ -1,0 +1,617 @@
+{
+    "alerters":[
+        {
+            "name":"Lobby timer",
+            "globalalarm":false,
+            "alarm":{
+                "sound":"upload:dqb6u:1. Wazzy - Lobby Timer",
+                "repeat":false
+            },
+            "voice":null,
+            "tooltip":"About to get lobbied",
+            "exportbar":true,
+            "delay":270,
+            "type":"inactive"
+        },
+        {
+            "name":"HP Alert",
+            "globalalarm":false,
+            "alarm":{
+                "sound":"upload:dqb6v:2. Wazzy - HP Alert",
+                "repeat":false
+            },
+            "voice":null,
+            "tooltip":"Your hp is low, heal up!",
+            "exportbar":true,
+            "stat":"hp",
+            "higherlower":"lower",
+            "treshold":5,
+            "type":"actionbar"
+        },
+        {
+            "name":"Prayer Alert",
+            "globalalarm":false,
+            "alarm":{
+                "sound":"upload:dqb6w:3. Wazzy - Prayer Alert",
+                "repeat":false
+            },
+            "voice":null,
+            "tooltip":"Your prayer is low, pot up!",
+            "exportbar":true,
+            "stat":"pray",
+            "higherlower":"lower",
+            "treshold":30,
+            "type":"actionbar"
+        },
+        {
+            "name":"Animate Dead",
+            "globalalarm":false,
+            "alarm":{
+                "sound":"upload:dqb6x:4. Wazzy - Animate Dead",
+                "repeat":false
+            },
+            "voice":null,
+            "tooltip":"Animate Dead",
+            "exportbar":true,
+            "resetonactive":true,
+            "lines":[
+                {
+                    "text":"Your control of the dead is wavering.",
+                    "percent":100
+                },
+                {
+                    "text":"Your control of the dead fades, the spirits return to rest.",
+                    "percent":0
+                }
+            ],
+            "colors":[
+                [
+                    255,
+                    255,
+                    255
+                ],
+                [
+                    127,
+                    169,
+                    255
+                ]
+            ],
+            "type":"chat"
+        },
+        {
+            "name":"Powerburst Unavailable",
+            "globalalarm":false,
+            "alarm":{
+                "sound":"upload:dqb62:6. Wazzy - Powerburst Unavailable",
+                "repeat":false
+            },
+            "voice":null,
+            "tooltip":null,
+            "exportbar":true,
+            "resetonactive":true,
+            "lines":[
+                {
+                    "text":"You can't drink a powerburst potion for another ",
+                    "percent":100
+                }
+            ],
+            "colors":[
+                [
+                    255,
+                    255,
+                    255
+                ],
+                [
+                    127,
+                    169,
+                    255
+                ]
+            ],
+            "type":"chat"
+        },
+        {
+            "name":"God book",
+            "globalalarm":false,
+            "alarm":{
+                "sound":"upload:dqb63:7. Wazzy - God Book",
+                "repeat":false
+            },
+            "voice":null,
+            "tooltip":null,
+            "exportbar":true,
+            "resetonactive":false,
+            "lines":[
+                {
+                    "text":"Your god book is no longer active",
+                    "percent":100
+                },
+                {
+                    "text":"Your god book is now active",
+                    "percent":0
+                }
+            ],
+            "colors":[
+                [
+                    255,
+                    255,
+                    255
+                ],
+                [
+                    127,
+                    169,
+                    255
+                ],
+                [
+                    255,
+                    204,
+                    0
+                ]
+            ],
+            "type":"chat"
+        },
+        {
+            "name":"Zerk Auras",
+            "globalalarm":false,
+            "alarm":{
+                "sound":"upload:dqb64:8. Wazzy - Zerk Auras",
+                "repeat":false
+            },
+            "voice":null,
+            "tooltip":null,
+            "exportbar":true,
+            "resetonactive":false,
+            "lines":[
+                {
+                    "text":"Your aura will deplete in 1 minute",
+                    "percent":100
+                },
+                {
+                    "text":"Your aura has depleted",
+                    "percent":100
+                },
+                {
+                    "text":"You unleash a berserk rage",
+                    "percent":0
+                },
+                {
+                    "text":"Your berserker rage has subsided",
+                    "percent":100
+                }
+            ],
+            "colors":[
+                [
+                    255,
+                    255,
+                    255
+                ],
+                [
+                    255,
+                    204,
+                    0
+                ],
+                [
+                    127,
+                    169,
+                    255
+                ]
+            ],
+            "type":"chat"
+        },
+        {
+            "name":"Weapon Poison",
+            "globalalarm":false,
+            "alarm":{
+                "sound":"upload:dqb67:11. Wazzy - Weapon Poison",
+                "repeat":false
+            },
+            "voice":null,
+            "tooltip":null,
+            "exportbar":true,
+            "resetonactive":false,
+            "lines":[
+                {
+                    "text":"Your poison potion is about to expire",
+                    "percent":100
+                },
+                {
+                    "text":"Your poison potion has expired",
+                    "percent":100
+                },
+                {
+                    "text":"You apply some of your Weapon Poison",
+                    "percent":0
+                }
+            ],
+            "colors":[
+                [
+                    255,
+                    255,
+                    255
+                ],
+                [
+                    127,
+                    169,
+                    255
+                ],
+                [
+                    255,
+                    0,
+                    0
+                ]
+            ],
+            "type":"chat"
+        },
+        {
+            "name":"Cannon decay",
+            "globalalarm":false,
+            "alarm":{
+                "sound":"upload:dqb68:12. Wazzy - Cannon Decay",
+                "repeat":false
+            },
+            "voice":null,
+            "tooltip":null,
+            "exportbar":true,
+            "resetonactive":true,
+            "lines":[
+                {
+                    "text":"Your cannon has almost decayed",
+                    "percent":100
+                }
+            ],
+            "colors":[
+                [
+                    255,
+                    0,
+                    0
+                ]
+            ],
+            "type":"chat"
+        },
+        {
+            "name":"Familiar tracker",
+            "globalalarm":false,
+            "alarm":{
+                "sound":"upload:dqb69:13. Wazzy - Familiar Tracker",
+                "repeat":false
+            },
+            "voice":null,
+            "tooltip":null,
+            "exportbar":true,
+            "resetonactive":true,
+            "lines":[
+                {
+                    "text":"You have 1 minute before your familiar vanishes",
+                    "percent":100
+                },
+                {
+                    "text":"You have 30 seconds before your familiar vanishes",
+                    "percent":100
+                }
+            ],
+            "colors":[
+                [
+                    255,
+                    255,
+                    255
+                ],
+                [
+                    127,
+                    169,
+                    255
+                ],
+                [
+                    235,
+                    47,
+                    47
+                ]
+            ],
+            "type":"chat"
+        },
+        {
+            "name":"Insense Sticks",
+            "globalalarm":false,
+            "alarm":{
+                "sound":"upload:dqb7a:14. Wazzy - Insense Sticks",
+                "repeat":false
+            },
+            "voice":null,
+            "tooltip":null,
+            "exportbar":true,
+            "resetonactive":true,
+            "lines":[
+                {
+                    "text":"The effects have ended for:",
+                    "percent":100
+                }
+            ],
+            "colors":[
+                [
+                    255,
+                    255,
+                    255
+                ],
+                [
+                    127,
+                    169,
+                    255
+                ],
+                [
+                    255,
+                    0,
+                    0
+                ]
+            ],
+            "type":"chat"
+        },
+        {
+            "name":"Elder Overload Salve - Pause if not using",
+            "globalalarm":false,
+            "alarm":{
+                "sound":"upload:dqb6z:5. Wazzy - Overload",
+                "repeat":false
+            },
+            "voice":null,
+            "tooltip":null,
+            "exportbar":true,
+            "resetonactive":false,
+            "lines":[
+                {
+                    "text":"The effects of overload are about to wear off",
+                    "percent":100
+                },
+                {
+                    "text":"Your resistance to dragonfire is about to run out",
+                    "percent":100
+                },
+                {
+                    "text":"Your immunity to poison is about to expire",
+                    "percent":100
+                },
+                {
+                    "text":"Elder overload salve",
+                    "percent":0
+                }
+            ],
+            "colors":[
+                [
+                    255,
+                    255,
+                    255
+                ],
+                [
+                    127,
+                    169,
+                    255
+                ],
+                [
+                    255,
+                    0,
+                    0
+                ]
+            ],
+            "type":"chat"
+        },
+        {
+            "name":"",
+            "globalalarm":false,
+            "alarm":null,
+            "voice":null,
+            "tooltip":null,
+            "exportbar":false,
+            "resetonactive":false,
+            "lines":[
+                
+            ],
+            "colors":[
+                
+            ],
+            "type":"chat"
+        },
+        {
+            "name":"Pause all the below alerts if using Elder Overload Salve",
+            "globalalarm":false,
+            "alarm":null,
+            "voice":null,
+            "tooltip":null,
+            "exportbar":false,
+            "resetonactive":false,
+            "lines":[
+                
+            ],
+            "colors":[
+                
+            ],
+            "type":"chat"
+        },
+        {
+            "name":"Overload",
+            "globalalarm":false,
+            "alarm":{
+                "sound":"upload:dqb6z:5. Wazzy - Overload",
+                "repeat":false
+            },
+            "voice":null,
+            "tooltip":"Overload",
+            "exportbar":true,
+            "resetonactive":false,
+            "lines":[
+                {
+                    "text":"The effects of overload are about to wear off.",
+                    "percent":100
+                },
+                {
+                    "text":"overload potion.",
+                    "percent":0
+                },
+                {
+                    "text":"Aggroverload",
+                    "percent":0
+                },
+                {
+                    "text":"Holy aggroverload",
+                    "percent":0
+                },
+                {
+                    "text":"Holy overload",
+                    "percent":0
+                },
+                {
+                    "text":"Overload salve",
+                    "percent":0
+                },
+                {
+                    "text":"Perfect plus",
+                    "percent":0
+                },
+                {
+                    "text":"Searing overload",
+                    "percent":0
+                },
+                {
+                    "text":"Supreme overload",
+                    "percent":0
+                },
+                {
+                    "text":"Elder overload salve",
+                    "percent":0
+                }
+            ],
+            "colors":[
+                [
+                    255,
+                    255,
+                    255
+                ],
+                [
+                    127,
+                    169,
+                    255
+                ],
+                [
+                    255,
+                    0,
+                    0
+                ]
+            ],
+            "type":"chat"
+        },
+        {
+            "name":"Antifire",
+            "globalalarm":false,
+            "alarm":{
+                "sound":"upload:dqb65:9. Wazzy - Antifire",
+                "repeat":false
+            },
+            "voice":null,
+            "tooltip":null,
+            "exportbar":true,
+            "resetonactive":false,
+            "lines":[
+                {
+                    "text":"Your resistance to dragonfire is about to run out",
+                    "percent":100
+                },
+                {
+                    "text":"Your resistance to dragonfire has run out",
+                    "percent":100
+                },
+                {
+                    "text":"antifire potion",
+                    "percent":0
+                },
+                {
+                    "text":"Wyrmfire potion",
+                    "percent":0
+                },
+                {
+                    "text":"Supreme overload salve",
+                    "percent":0
+                },
+                {
+                    "text":"Overload salve",
+                    "percent":0
+                },
+                {
+                    "text":"Elder overload salve",
+                    "percent":0
+                }
+            ],
+            "colors":[
+                [
+                    255,
+                    255,
+                    255
+                ],
+                [
+                    127,
+                    169,
+                    255
+                ],
+                [
+                    255,
+                    0,
+                    0
+                ]
+            ],
+            "type":"chat"
+        },
+        {
+            "name":"Antipoison",
+            "globalalarm":false,
+            "alarm":{
+                "sound":"upload:dqb66:10. Wazzy - Antipoison",
+                "repeat":false
+            },
+            "voice":null,
+            "tooltip":null,
+            "exportbar":true,
+            "resetonactive":false,
+            "lines":[
+                {
+                    "text":"Your immunity to poison is about to expire",
+                    "percent":100
+                },
+                {
+                    "text":"Your immunity to poison has expired",
+                    "percent":100
+                },
+                {
+                    "text":"You drink some of your Antipoison",
+                    "percent":0
+                },
+                {
+                    "text":"Elder overload salve",
+                    "percent":0
+                },
+                {
+                    "text":"Overload salve",
+                    "percent":0
+                },
+                {
+                    "text":"Supreme overload salve",
+                    "percent":0
+                }
+            ],
+            "colors":[
+                [
+                    255,
+                    255,
+                    255
+                ],
+                [
+                    127,
+                    169,
+                    255
+                ],
+                [
+                    255,
+                    0,
+                    0
+                ]
+            ],
+            "type":"chat"
+        }
+    ],
+    "name":"General PVM - Wazzy",
+    "baseName":"slayer"
+}
