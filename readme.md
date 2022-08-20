@@ -32,7 +32,8 @@ _Using Elder Overload Salve?_
 _**ENJOY!**_  
 
 <img src="assets/imgs/Wallpapers%20Banners.png" width=500>  
-- [Access Wallpapers](https://github.com/IgorsCC/afkwarden-presets/blob/master/wallpapers.md) - *Created by ChaosArtRS*  
+
+- [Access 4k Wallpapers Hub](https://github.com/IgorsCC/afkwarden-presets/blob/master/wallpapers.md) - *Courtesy of ChaosArtRS*
 
 <img src="assets/imgs/Current%20Presets%20banner.png" width=500>  
 
@@ -53,6 +54,14 @@ _**These can be used for any boss encounter yet to be covered by this project. I
 - [Queen Black Dragon](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/presets/qbd.json)  
 
 <img src="assets/imgs/Kerapac%20banner.png" width=500>  
+<img src="assets/imgs/Wazzy%20banner.png" width=500>  
+
+
+- **Bonus Endings**  
+  - Please ensure you choose your preferred ending and pause the others:  
+_1. "TIME to do it all over again!"_  
+_2. "It's TIME to celebrate!"_  
+_3. "Great work, you killed him in record TIME"_  
 - [Kerapac - Normal Mode](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/presets/kerapac-nm.json)  
 
 <img src="assets/imgs/Zamorak%20banner.png" width=500>  
@@ -65,8 +74,8 @@ _**These can be used for any boss encounter yet to be covered by this project. I
 <img src="assets/imgs/Raksha%20banner.png" width=500>  
 <img src="assets/imgs/Protoxx%20banner.png" width=500>   
 
-**Bonus Endings**
-Please ensure you choose your preferred ending and pause the others:  
+- **Bonus Endings**  
+  - Please ensure you choose your preferred ending and pause the others:  
 _1. "I think it's time for a cup of tea!"_  
 _2. "Congratulations, you've killed Barney!"_  
 _3. "Nicely done, now do it again!"_  
