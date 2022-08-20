@@ -1,4 +1,4 @@
-[Back to Boss Presets Hub](https://github.com/IgorsCC/afkwarden-presets/blob/master/readme.md)  
+[Go to Boss Presets Hub](https://github.com/IgorsCC/afkwarden-presets/blob/master/readme.md)  
 <img src="assets/imgs/Wallpapers%20Banners.png" width=500>  
 
 <img src="assets/wallpapers/KerapacWallpaper4k.png" width=500>  
