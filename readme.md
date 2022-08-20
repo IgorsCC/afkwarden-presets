@@ -24,23 +24,24 @@
 9. Access one of the boss preset links below and copy paste the code using Keyboard shortcuts **(CTRL+C & CTRL+V)**
 10. Click Import and Start learning the fight!  
 
-**Important:**
+**Important:**  
 _Using Elder Overload Salve?_
  1. **YES:** Please pause Overload, Antifire, Antipoison alerts.
  2. **NO:** Pause Elder Overload Salve alert.  
 
-_**ENJOY!**_  
+# _**ENJOY!**_  
 
 <img src="assets/imgs/Wallpapers%20Banners.png" width=500>  
 
 - [Access 4k Wallpapers Hub](https://github.com/IgorsCC/afkwarden-presets/blob/master/wallpapers.md) - *Courtesy of ChaosArtRS*
-
+#
 <img src="assets/imgs/Current%20Presets%20banner.png" width=500>  
 
+#
 <img src="assets/imgs/Wildy%20banner.png" width=500>  
 
 - [Wilderness Reborn](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/presets/wilderness.json)  
-
+#
 <img src="assets/imgs/Creators%20banner.png" width=500>  
 
 _**These can be used for any boss encounter yet to be covered by this project. Includes alerts such as Buffs, Auras, Potions, etc.**_  
@@ -48,14 +49,13 @@ _**These can be used for any boss encounter yet to be covered by this project. I
 - [General PVM - Voice Pack - The RS Guy](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/presets/general-rsguy.json)  
 - [General PVM - Voice Pack - Protoxx](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/presets/general-protoxx.json)  
 - [General PVM - Voice Pack - Wazzy](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/presets/general-wazzy.json)  
-
+#
 <img src="assets/imgs/QBD%20banner.png" width=500>
 
 - [Queen Black Dragon](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/presets/qbd.json)  
-
+#
 <img src="assets/imgs/Kerapac%20banner.png" width=500>  
 <img src="assets/imgs/Wazzy%20banner.png" width=500>  
-
 
 - **Bonus Endings**  
   - Please ensure you choose your preferred ending and pause the others:  
@@ -63,14 +63,14 @@ _1. "TIME to do it all over again!"_
 _2. "It's TIME to celebrate!"_  
 _3. "Great work, you killed him in record TIME"_  
 - [Kerapac - Normal Mode](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/presets/kerapac-nm.json)  
-
+#
 <img src="assets/imgs/Zamorak%20banner.png" width=500>  
 
 - [Zamorak - Solo](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/presets/zammysub100-solo.json)  
 - [Zamorak - Group - DPS](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/presets/zammysub100-group-dps.json)  
 - [Zamorak - Group - Witch Killer](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/presets/zammysub100-group-witch.json)  
 - [Zamorak - Group - Pad Charger](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/presets/zammysub100-group-pads.json)  
-
+#
 <img src="assets/imgs/Raksha%20banner.png" width=500>  
 <img src="assets/imgs/Protoxx%20banner.png" width=500>   
 
@@ -82,7 +82,7 @@ _3. "Nicely done, now do it again!"_
 - [Raksha - Solo](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/presets/raksha-solo-protoxx.json)  
 - [Raksha - Duo-DPS](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/presets/raksha-duo-dps-protoxx.json)  
 - [Raksha - Duo-BASE](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/presets/raksha-duo-tank-protoxx.json)  
-  
+#
 <img src="assets/imgs/Zuk%20banner.png" width=500>  
 <img src="assets/imgs/The%20RS%20Guy%20banner.png" width=500>  
 
