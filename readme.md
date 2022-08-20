@@ -53,6 +53,9 @@ _**These can be used for any boss encounter yet to be covered by this project. I
 <img src="assets/imgs/Kerapac%20banner.png" width=500>  
 <img src="assets/imgs/Wazzy%20banner.png" width=500>  
 
+- **Pontifex Shadow Ring Upgrade**  
+  - Please ensure you choose the correct setting whether you have the upgrade unlocked or not   
+
 - **Bonus Endings**  
   - Please ensure you choose your preferred ending and pause the others:  
 _1. "TIME to do it all over again!"_  
