@@ -2,6 +2,7 @@
 <img src="assets/imgs/Roadmap%20banner.png" width=500>   
 
 # Work in Progress  
+- Preset - Hardmode Kerapac
 - Preset - Hardmode TzKal-Zuk  
 - Preset - Elite Dungeon 1 "Temple of Aminishi"  
 - Preset - Elite Dungeon 2 "Dragonkin Laboratory"  
