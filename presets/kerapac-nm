@@ -1452,8 +1452,11 @@
         },
         {
             "name":"8. End of fight - Ending 1",
-            "globalalarm":true,
-            "alarm":null,
+            "globalalarm":false,
+            "alarm":{
+                "sound":"upload:dqb9s:8. Wazzy - Ending1 - TIME to do it all over again",
+                "repeat":false
+            },
             "voice":null,
             "tooltip":null,
             "exportbar":true,
@@ -1527,8 +1530,11 @@
         },
         {
             "name":"8. End of fight - Ending 2",
-            "globalalarm":true,
-            "alarm":null,
+            "globalalarm":false,
+            "alarm":{
+                "sound":"upload:dqb9v:8. Wazzy - Ending2 - It's TIME to celebrate",
+                "repeat":false
+            },
             "voice":null,
             "tooltip":null,
             "exportbar":true,
@@ -1602,8 +1608,11 @@
         },
         {
             "name":"8. End of fight - Ending 3",
-            "globalalarm":true,
-            "alarm":null,
+            "globalalarm":false,
+            "alarm":{
+                "sound":"upload:dqb9w:8. Wazzy - Ending3 - Great work, you killed him in record TIME",
+                "repeat":false
+            },
             "voice":null,
             "tooltip":null,
             "exportbar":true,
