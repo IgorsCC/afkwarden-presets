@@ -94,7 +94,7 @@ _3. "Nicely done, now do it again!"_
 
 _**App Code - Courtesy of app developer DaStewie**_
 
-<img src="zuk-nm-helper/dist/images/Zuk_NM_Standby.png" height=340> <img src="zuk-nm-helper/dist/images/Igor's%20Zuk%20NM%20Visual%20Hints.gif" width=600> 
+<img src="zuk-nm-helper/dist/images/Zuk_NM_Standby.png" height=170> <img src="zuk-nm-helper/dist/images/Igor's%20Zuk%20NM%20Visual%20Hints.gif" width=300> 
 
 # Info Cards Installation Guide 
 
