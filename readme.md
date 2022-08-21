@@ -51,6 +51,7 @@ _**These can be used for any boss encounter yet to be covered by this project. I
 - [Queen Black Dragon](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/presets/qbd.json)  
 #
 <img src="assets/imgs/Kerapac%20banner.png" width=500>  
+
 <img src="assets/imgs/Wazzy%20banner.png" width=500>  
 
 - **Pontifex Shadow Ring Upgrade**  
@@ -71,6 +72,7 @@ _3. "Great work, you killed him in record TIME"_
 - [Zamorak - Group - Pad Charger](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/presets/zammysub100-group-pads.json)  
 #
 <img src="assets/imgs/Raksha%20banner.png" width=500>  
+
 <img src="assets/imgs/Protoxx%20banner.png" width=500>   
 
 - **Bonus Endings**  
@@ -83,11 +85,26 @@ _3. "Nicely done, now do it again!"_
 - [Raksha - Duo-BASE](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/presets/raksha-duo-tank-protoxx.json)  
 #
 <img src="assets/imgs/Zuk%20banner.png" width=500>  
+
 <img src="assets/imgs/The%20RS%20Guy%20banner.png" width=500>  
 
 - [TzKal-Zuk - Normal Mode](https://raw.githubusercontent.com/igorscc/afkwarden-presets/master/presets/zuk-nm-rsguy.json)  
-#
 
+# BONUS Feature! Zuk NM Wave by Wave Info Cards
+
+_**App Code - Courtesy of app developer DaStewie**_
+
+<img src="zuk-nm-helper/dist/images/Zuk_NM_Standby.png" height=340> <img src="zuk-nm-helper/dist/images/Igor's%20Zuk%20NM%20Visual%20Hints.gif" width=600> 
+
+# Info Cards Installation Guide 
+
+1. Copy and Paste `alt1://addapp/https://igorscc.github.io/afkwarden-presets/zuk-nm-helper/dist/appconfig.json` in your browser.  
+2. Allow the browser to _Open Runeapps Alt1 Toolkit_.
+3. Allow permissions and _Confirm_.
+4. Move the new pop up window to a convenient location (_Under the minimap in my example_)
+5. Begin the encounter and the app will automatically update the Info Card depending on the wave number detected under the Boss HP Bar.
+
+#
 <img src="assets/imgs/Wallpapers%20Banners.png" width=500>  
 
 - [Go to 4k Wallpapers Hub](https://github.com/IgorsCC/afkwarden-presets/blob/master/wallpapers.md) - *Courtesy of ChaosArtRS*
