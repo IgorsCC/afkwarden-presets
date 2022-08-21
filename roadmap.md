@@ -11,6 +11,8 @@
 - Long term project - Igors Combat Companion - _One app to rule them all_ 
   - Contact me on discord if you wish to join the project "igor picard#2626"  
 # Released Updates
+- **21st of August 2022**
+  - Tool - Visual Info Cards app for Zuk Normal Mode encounter, courtesy of DaStewie (app developer) 
 - **20th of August 2022**
   - Preset - Kerapac Normal Mode - Voice acted by Wazzy!
   - Update - Introduced a 4k Wallpaper Hub.
