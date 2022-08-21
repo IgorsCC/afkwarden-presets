@@ -18,7 +18,7 @@ function debug() {
     let img = A1lib.captureHoldFullRs();
 
     let pos = {};
-    var poslist = img.findSubimage(imgs["Wave"]);
+    var poslist = img.findSubimage(imgs["wave"]);
     if (poslist.length != 0) {
         let canvas = document.getElementById("canvas") as HTMLCanvasElement;
         let ctx = canvas.getContext("2d");  
@@ -54,7 +54,7 @@ function debug() {
 function find() {
     let img = A1lib.captureHoldFullRs();
 
-    var poslist = img.findSubimage(imgs["Wave"]);
+    var poslist = img.findSubimage(imgs["wave"]);
     if (poslist.length == 0) return null;
 
     let pos = {

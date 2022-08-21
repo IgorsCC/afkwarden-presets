@@ -2230,7 +2230,7 @@ let imgs = _alt1_base__WEBPACK_IMPORTED_MODULE_0__.ImageDetect.webpackImages({
 function debug() {
     let img = _alt1_base__WEBPACK_IMPORTED_MODULE_0__.captureHoldFullRs();
     let pos = {};
-    var poslist = img.findSubimage(imgs["Wave"]);
+    var poslist = img.findSubimage(imgs["wave"]);
     if (poslist.length != 0) {
         let canvas = document.getElementById("canvas");
         let ctx = canvas.getContext("2d");
@@ -2261,7 +2261,7 @@ function debug() {
 }
 function find() {
     let img = _alt1_base__WEBPACK_IMPORTED_MODULE_0__.captureHoldFullRs();
-    var poslist = img.findSubimage(imgs["Wave"]);
+    var poslist = img.findSubimage(imgs["wave"]);
     if (poslist.length == 0)
         return null;
     let pos = {
