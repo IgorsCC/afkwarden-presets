@@ -2290,19 +2290,6 @@ let img_el = document.getElementById("bg");
 function slideShow() {
     img_el.src = "./images/Wave" + wave + ".png";
 }
-img_el.onclick = function () {
-    wave++;
-    if (wave > 18)
-        wave = 18;
-    slideShow();
-};
-img_el.oncontextmenu = function (e) {
-    e.preventDefault();
-    wave--;
-    if (wave < 1)
-        wave = 1;
-    slideShow();
-};
 // check if we are running inside alt1 by checking if the alt1 global exists
 if (window.alt1) {
     alt1.identifyAppUrl("./appconfig.json");
