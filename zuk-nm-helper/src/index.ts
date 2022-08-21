@@ -2,9 +2,6 @@
 //also gives your editor info about the window.alt1 api
 import * as A1lib from "@alt1/base";
 import { findChar } from "@alt1/ocr/dist";
-import { emojiLUT } from "./emojiLUT";
-import { wave_text } from "./wavetexts";
-
 import * as $ from "./jquery";
 
 
@@ -21,7 +18,7 @@ function debug() {
     let img = A1lib.captureHoldFullRs();
 
     let pos = {};
-    var poslist = img.findSubimage(imgs["wave"]);
+    var poslist = img.findSubimage(imgs["Wave"]);
     if (poslist.length != 0) {
         let canvas = document.getElementById("canvas") as HTMLCanvasElement;
         let ctx = canvas.getContext("2d");  
