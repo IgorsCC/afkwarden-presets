@@ -94,7 +94,7 @@ _3. "Nicely done, now do it again!"_
 
 _**App Code - Courtesy of app developer DaStewie**_
 
-<img src="zuk-nm-helper/dist/images/Zuk_NM_Standby.png" height=170> <img src="zuk-nm-helper/dist/images/Igor's%20Zuk%20NM%20Visual%20Hints.gif" width=300> 
+<img src="zuk-nm-helper/dist/images/Igor's%20Zuk%20NM%20Visual%20Hints.gif" width=500> 
 
 # Info Cards Installation Guide 
 
@@ -104,7 +104,8 @@ _**App Code - Courtesy of app developer DaStewie**_
 4. Move the new pop up window to a convenient location (_Under the minimap in my example_)
 5. Begin the encounter and the app will automatically update the Info Card depending on the wave number detected under the Boss HP Bar.
 
-#
+# LET'S BEGIN!!!
+
 <img src="assets/imgs/Wallpapers%20Banners.png" width=500>  
 
 - [Go to 4k Wallpapers Hub](https://github.com/IgorsCC/afkwarden-presets/blob/master/wallpapers.md) - *Courtesy of ChaosArtRS*
