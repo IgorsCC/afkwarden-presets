@@ -2,12 +2,16 @@
 <img src="assets/imgs/Roadmap%20banner.png" width=500>   
 
 # Work in Progress  
+- Update - Zamorak Voiced by Content Creator
+- Update - Queen Black Dragon Voiced by Content Creator
 - Preset - Hardmode Kerapac
 - Preset - Hardmode TzKal-Zuk  
 - Preset - Elite Dungeon 1 "Temple of Aminishi"  
 - Preset - Elite Dungeon 2 "Dragonkin Laboratory"  
 - Preset - Elite Dungeon 3 "The Shadow Reef"  
 - Preset - Angel of Death  
+- Preset - Telos
+- Preset - Solak
 - Long term project - Igors Combat Companion - _One app to rule them all_ 
   - Contact me on discord if you wish to join the project "igor picard#2626"  
 # Released Updates
