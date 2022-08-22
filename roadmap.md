@@ -5,7 +5,9 @@
 - Update - Zamorak Voiced by Content Creator
 - Update - Queen Black Dragon Voiced by Content Creator
 - Preset - Hardmode Kerapac
+- Tool - Info card Kerapac HM P4
 - Preset - Hardmode TzKal-Zuk  
+- Tool - Info cards - Wave Lures HM Zuk
 - Preset - Elite Dungeon 1 "Temple of Aminishi"  
 - Preset - Elite Dungeon 2 "Dragonkin Laboratory"  
 - Preset - Elite Dungeon 3 "The Shadow Reef"  
