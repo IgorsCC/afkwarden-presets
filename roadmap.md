@@ -1,22 +1,47 @@
 [← Go to Boss Presets Hub](https://github.com/IgorsCC/afkwarden-presets/blob/master/readme.md)  
 <img src="assets/imgs/Roadmap%20banner.png" width=500>   
 
+_**All bosses that can be covered by Igor's Presets are listed below:**_  
+ - *Unfortunately, the rest of the boss encounters cannot have a guide due to their mechanics not being announced in the chatbox but rather through overhead text or solely telegraphed through animations. Unfortunately, we cannot detect these unless interfering with the client which is not acceptable to Jagex from what I understood. Maybe a future agreement can be reached to allow for all the bosses to be covered by this proejct, we never know.*  
+
+**Released**
+- Queen Black Dragon
+- Normal Mode Kerapac
+- Raksha
+- Normal Mode Zuk
+- Zamorak
+
+**Future bosses:**
+- Fight Cave - Info Cards - Wave Safespots
+- Fight Kiln - Info Cards - Wave Safespots
+- Elite Dungeon 1 "Temple of Aminishi"  
+- Elite Dungeon 2 "Dragonkin Laboratory"  
+- Elite Dungeon 3 "The Shadow Reef"  
+- Arch Glacor
+- Croesus
+- Hard Mode Kerapac
+- Zamorak 100%+
+- Hard Mode Zuk
+- Vorago
+- Telos
+- Solak
+- Beastmaster
+- Yakamaru
+- Angel of Death
+
 # Work in Progress  
 - Update - Zamorak Voiced by Content Creator
 - Update - Queen Black Dragon Voiced by Content Creator
 - Preset - Hardmode Kerapac
-- Tool - Info card Kerapac HM P4
+- Tool - Info Card Kerapac HM P4
 - Preset - Hardmode TzKal-Zuk  
-- Tool - Info cards - Wave Lures HM Zuk
-- Preset - Elite Dungeon 1 "Temple of Aminishi"  
-- Preset - Elite Dungeon 2 "Dragonkin Laboratory"  
-- Preset - Elite Dungeon 3 "The Shadow Reef"  
-- Preset - Angel of Death  
-- Preset - Telos
-- Preset - Solak
-- Long term project - Igors Combat Companion - _One app to rule them all_ 
-  - Contact me on discord if you wish to join the project "igor picard#2626"  
-# Released Updates
+- Tool - Info Card - Wave Lures HM Zuk
+
+# **Igor's Combat Companion**
+  -  _One app to rule them all_ - Contact me on discord if you wish to join the project "igor picard#2626"  
+  - The foundation set by Igor's Presets will be used to build a standalone app that will include all bosses from the above list as well as multiple voice packs from various content creators to offer players freedom of choice.
+  
+# Release History
 - **21st of August 2022**
   - Tool - Visual Info Cards app for Zuk Normal Mode encounter, courtesy of DaStewie (app developer) 
 - **20th of August 2022**
@@ -61,8 +86,3 @@
   - Website - https://linktr.ee/igorspresets
   - Reddit - r/igorspresets
   - Twitter - https://twitter.com/IgorsPresets
-# Future IgorsPresets
-- "General PVM Preset" to be used as a base for all future boss presets
-- Zamorak 100% Enrage - P7 will be added once the community figures out an easy way to tackle the mechanics
-- The goal for IgorsPresets is to ideally create a preset for all the bosses that have mechanics announced in the chatbox that allows this concept to work.
-- The foundation set by IgorsPresets will be used to build a standalone app (a project that I have started together with a number of talented individuals from the community so if someone with coding experience wishes to collaborate please add me on discord "igor picard#2626" and we can discuss further)
