@@ -2,12 +2,12 @@
 
 <img src="assets/imgs/About%20banner.png" width=500>  
 
-- _**IgorsPresets**_ helps PVM beginners who want to learn new bosses by reducing the time and resources spent going to Death's Office through calling out mechanics during boss encounters.  
-- _**IgorsPresets**_ are created using the AfkWarden tool from [Alt1 Toolkit](https://runeapps.org/alt1) created by Skillbert.  
+- _**Igor's Presets**_ helps PVM beginners who want to learn new bosses by reducing the time and resources spent going to Death's Office through calling out mechanics during boss encounters.  
+- _**Igor's Presets**_ are created using the AfkWarden tool from [Alt1 Toolkit](https://runeapps.org/alt1) created by Skillbert.  
 - All current boss presets are created using:  
   - The "General PVM Preset" that contains utility voice callouts for buffs, auras, potions etc.  
   - Learner friendly boss mechanic call-outs voiced by your favourite content creators aimed at making learning new bosses or group roles easier.  
-- _**Igors Combat Companion**_, a standalone app, is being worked on in the background through a collaborative effort of talented individuals from the community to deliver the _One app to rule them all_ to the Runescape PVM community
+- _**Igor's Combat Companion**_, a standalone app, is being worked on in the background through a collaborative effort of talented individuals from the community to deliver the _One app to rule them all_ to the Runescape PVM community
 
 <img src="assets/imgs/How%20to%20Install%20banner.png" width=500>    
 
