@@ -1,4 +1,4 @@
-# IgorsPresets - Boss Presets Hub  
+# Igor's Presets - Boss Presets Hub  
 
 <img src="assets/imgs/About%20banner.png" width=500>  
 
